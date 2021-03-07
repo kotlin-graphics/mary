@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kx.build-logic",
+    "module": "8",
+    "version": "0.6.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0-milestone-2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "8-0.6.3.jar",
+          "url": "8-0.6.3.jar",
+          "size": 309890,
+          "sha512": "dddfe1239d41d905c00526b3513a9e4d8db53dbf782795b9585123b04299e3a4fe1863813c7db63043c0d2b4d99e6ec9ab0c1c8a121f635f6350cc9c5b78b9eb",
+          "sha256": "a036547ecc79619e18ae9236cff0ad78f54ea50d22c68cba57e7614a1927ebf3",
+          "sha1": "e9ad4dfc44d793a9a5bedee7b5616eb652112b57",
+          "md5": "914566bb5c54f886e833c25f40af155e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kx.platform",
+          "module": "plugin",
+          "version": {
+            "requires": "0.1.8"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.4.30"
+          }
+        },
+        {
+          "group": "kx.build-logic",
+          "module": "commons",
+          "version": {
+            "requires": "0.6.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "8-0.6.3.jar",
+          "url": "8-0.6.3.jar",
+          "size": 309890,
+          "sha512": "dddfe1239d41d905c00526b3513a9e4d8db53dbf782795b9585123b04299e3a4fe1863813c7db63043c0d2b4d99e6ec9ab0c1c8a121f635f6350cc9c5b78b9eb",
+          "sha256": "a036547ecc79619e18ae9236cff0ad78f54ea50d22c68cba57e7614a1927ebf3",
+          "sha1": "e9ad4dfc44d793a9a5bedee7b5616eb652112b57",
+          "md5": "914566bb5c54f886e833c25f40af155e"
+        }
+      ]
+    }
+  ]
+}

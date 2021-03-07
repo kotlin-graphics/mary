@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kx.build-logic",
+    "module": "docs",
+    "version": "0.6.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0-milestone-2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "docs-0.6.3.jar",
+          "url": "docs-0.6.3.jar",
+          "size": 234501,
+          "sha512": "e8fdd17cb62559c7cf6f07d18798645ea78ac5c537b111e6805113f0b13bd84a6a30ffc15da669edcd05504c28869d5294fd2b20eee8d4f492e605c5fdc353d3",
+          "sha256": "b5a35c30cbfdd2ac5b95be6a499e170931072c4c0893b11c5f0a3d27fe9b370e",
+          "sha1": "4baf51b3a0adf97201b78ed36734952208d4f856",
+          "md5": "fd9e551f42486e1796aace8d8d6c5d2a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kx.platform",
+          "module": "plugin",
+          "version": {
+            "requires": "0.1.8"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin"
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "docs-0.6.3.jar",
+          "url": "docs-0.6.3.jar",
+          "size": 234501,
+          "sha512": "e8fdd17cb62559c7cf6f07d18798645ea78ac5c537b111e6805113f0b13bd84a6a30ffc15da669edcd05504c28869d5294fd2b20eee8d4f492e605c5fdc353d3",
+          "sha256": "b5a35c30cbfdd2ac5b95be6a499e170931072c4c0893b11c5f0a3d27fe9b370e",
+          "sha1": "4baf51b3a0adf97201b78ed36734952208d4f856",
+          "md5": "fd9e551f42486e1796aace8d8d6c5d2a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kx.build-logic",
+    "module": "11",
+    "version": "0.6.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0-milestone-2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "11-0.6.3.jar",
+          "url": "11-0.6.3.jar",
+          "size": 312399,
+          "sha512": "47df0ca16f5b8d1d8a9ca8568a2da41bcc357191564197db3df8c902a87bb28201207e50f45ac2cf2ffce6294d8de1813e24763084dff8a0f2210d553509049c",
+          "sha256": "7300a226a452da2df1bb27da7b4f6b34990cc2087b3f0d4c8dafac1f72818ebb",
+          "sha1": "306e84b14c2eb1f72d8e18c084225032a492a408",
+          "md5": "276f3fe0a8568e3489a24a48a7ac2043"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kx.platform",
+          "module": "plugin",
+          "version": {
+            "requires": "0.1.8"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.4.30"
+          }
+        },
+        {
+          "group": "kx.build-logic",
+          "module": "commons",
+          "version": {
+            "requires": "0.6.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "11-0.6.3.jar",
+          "url": "11-0.6.3.jar",
+          "size": 312399,
+          "sha512": "47df0ca16f5b8d1d8a9ca8568a2da41bcc357191564197db3df8c902a87bb28201207e50f45ac2cf2ffce6294d8de1813e24763084dff8a0f2210d553509049c",
+          "sha256": "7300a226a452da2df1bb27da7b4f6b34990cc2087b3f0d4c8dafac1f72818ebb",
+          "sha1": "306e84b14c2eb1f72d8e18c084225032a492a408",
+          "md5": "276f3fe0a8568e3489a24a48a7ac2043"
+        }
+      ]
+    }
+  ]
+}
