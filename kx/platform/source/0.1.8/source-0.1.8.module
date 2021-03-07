@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kx.platform",
+    "module": "source",
+    "version": "0.1.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0-milestone-2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-bom",
+          "version": {
+            "requires": "3.2.3"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "com.github.kotlin-graphics",
+          "module": "kotlin-unsigned",
+          "version": {
+            "requires": "ff50c1dd"
+          }
+        },
+        {
+          "group": "com.github.kotlin-graphics",
+          "module": "kool",
+          "version": {
+            "requires": "706a42d0"
+          }
+        },
+        {
+          "group": "com.github.kotlin-graphics",
+          "module": "glm",
+          "version": {
+            "requires": "c70013f5"
+          }
+        },
+        {
+          "group": "com.github.kotlin-graphics",
+          "module": "gli",
+          "version": {
+            "requires": "6e88ff65"
+          }
+        },
+        {
+          "group": "com.github.kotlin-graphics",
+          "module": "gln",
+          "version": {
+            "requires": "2d5e74af"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-bom",
+          "version": {
+            "requires": "3.2.3"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "com.github.kotlin-graphics",
+          "module": "kotlin-unsigned",
+          "version": {
+            "requires": "ff50c1dd"
+          }
+        },
+        {
+          "group": "com.github.kotlin-graphics",
+          "module": "kool",
+          "version": {
+            "requires": "706a42d0"
+          }
+        },
+        {
+          "group": "com.github.kotlin-graphics",
+          "module": "glm",
+          "version": {
+            "requires": "c70013f5"
+          }
+        },
+        {
+          "group": "com.github.kotlin-graphics",
+          "module": "gli",
+          "version": {
+            "requires": "6e88ff65"
+          }
+        },
+        {
+          "group": "com.github.kotlin-graphics",
+          "module": "gln",
+          "version": {
+            "requires": "2d5e74af"
+          }
+        }
+      ]
+    }
+  ]
+}
