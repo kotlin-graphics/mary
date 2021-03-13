@@ -3,11 +3,14 @@
   <groupId>kotlin.graphics.platform</groupId>
   <artifactId>source</artifactId>
   <versioning>
-    <latest>v0.1.9-3-0367e54</latest>
-    <release>v0.1.9-3-0367e54</release>
+    <latest>v0.1.9-13-86ff482</latest>
+    <release>v0.1.9-13-86ff482</release>
     <versions>
-      <version>v0.1.9-3-0367e54</version>
+      <version>v0.1.9-7-5d87fb7</version>
+      <version>v0.1.9-8-5572ae5</version>
+      <version>v0.1.9-10-6325730</version>
+      <version>v0.1.9-13-86ff482</version>
     </versions>
-    <lastUpdated>20210313105026</lastUpdated>
+    <lastUpdated>20210313120723</lastUpdated>
   </versioning>
 </metadata>
