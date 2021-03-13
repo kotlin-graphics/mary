@@ -3,8 +3,8 @@
   <groupId>kotlin.graphics.platform</groupId>
   <artifactId>plugin</artifactId>
   <versioning>
-    <latest>v0.1.9-14-d94197b</latest>
-    <release>v0.1.9-14-d94197b</release>
+    <latest>v0.1.9-18-f5c70aa</latest>
+    <release>v0.1.9-18-f5c70aa</release>
     <versions>
       <version>v0.1.9-7-5d87fb7</version>
       <version>v0.1.9-8-5572ae5</version>
@@ -12,7 +12,10 @@
       <version>v0.1.9-13-86ff482</version>
       <version>0.2.8</version>
       <version>v0.1.9-14-d94197b</version>
+      <version>v0.1.9-15-0a10bfd</version>
+      <version>v0.1.9-17-bdeee57</version>
+      <version>v0.1.9-18-f5c70aa</version>
     </versions>
-    <lastUpdated>20210313224815</lastUpdated>
+    <lastUpdated>20210313225922</lastUpdated>
   </versioning>
 </metadata>

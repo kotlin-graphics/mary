@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>kotlin.graphics.platform</groupId>
+  <artifactId>source</artifactId>
+  <version>v0.1.9-15-0a10bfd</version>
+  <packaging>pom</packaging>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.github.kotlin-graphics</groupId>
+        <artifactId>kotlin-unsigned</artifactId>
+        <version>51d8dfea</version>
+      </dependency>
+      <dependency>
+        <groupId>com.github.kotlin-graphics</groupId>
+        <artifactId>kool</artifactId>
+        <version>95bcdc4d</version>
+      </dependency>
+      <dependency>
+        <groupId>com.github.kotlin-graphics</groupId>
+        <artifactId>glm</artifactId>
+        <version>8dae70c1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.github.kotlin-graphics</groupId>
+        <artifactId>gli</artifactId>
+        <version>12cd3342</version>
+      </dependency>
+      <dependency>
+        <groupId>com.github.kotlin-graphics</groupId>
+        <artifactId>gln</artifactId>
+        <version>9eae85c8</version>
+      </dependency>
+      <dependency>
+        <groupId>com.github.kotlin-graphics</groupId>
+        <artifactId>vkk</artifactId>
+        <version>9d1cd859</version>
+      </dependency>
+      <dependency>
+        <groupId>org.lwjgl</groupId>
+        <artifactId>lwjgl-bom</artifactId>
+        <version>3.2.3</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>
