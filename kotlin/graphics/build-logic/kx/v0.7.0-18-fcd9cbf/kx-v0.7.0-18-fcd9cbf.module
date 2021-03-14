@@ -1,0 +1,64 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics.build-logic",
+    "module": "kx",
+    "version": "v0.7.0-18-fcd9cbf",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0-milestone-3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kx-v0.7.0-18-fcd9cbf.jar",
+          "url": "kx-v0.7.0-18-fcd9cbf.jar",
+          "size": 155807,
+          "sha512": "a75069c7dcb40a758f7291075a89de1d9abde0c8dc06eb18a9ee4ede1f3ec9b62065fb56e35e9edfd1ad0c58b3786036a74525c1dfdeeb19eb87381c0646d974",
+          "sha256": "600aaaeb4c28318604d361e10dd873b14f01ec8ec1534a2518e974926a8b0800",
+          "sha1": "84f08ef4a6a6609e83f0872ae1d271d81ded9645",
+          "md5": "8e0c39e9ac1a242bbbf015ceeb66343e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kx-v0.7.0-18-fcd9cbf.jar",
+          "url": "kx-v0.7.0-18-fcd9cbf.jar",
+          "size": 155807,
+          "sha512": "a75069c7dcb40a758f7291075a89de1d9abde0c8dc06eb18a9ee4ede1f3ec9b62065fb56e35e9edfd1ad0c58b3786036a74525c1dfdeeb19eb87381c0646d974",
+          "sha256": "600aaaeb4c28318604d361e10dd873b14f01ec8ec1534a2518e974926a8b0800",
+          "sha1": "84f08ef4a6a6609e83f0872ae1d271d81ded9645",
+          "md5": "8e0c39e9ac1a242bbbf015ceeb66343e"
+        }
+      ]
+    }
+  ]
+}
