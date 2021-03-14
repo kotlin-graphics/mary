@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics.build-logic",
+    "module": "kx-publish",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0-milestone-3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "kx-publish-0.0.1.jar",
+          "url": "kx-publish-0.0.1.jar",
+          "size": 261,
+          "sha512": "b36efd2c586094bacad973727f058bf568d47007d88b53b03c9c14882388ac670f17c4b03d701cfccb2bb44b04ca32e1af26265278e45256b6f4e5b5df7d5e3f",
+          "sha256": "b4b50eea791162602adf81550dc83a82e0116161fdc596af8c8246d25445da86",
+          "sha1": "ebb2f430756d69afa47385d2f00940efdb046769",
+          "md5": "e4470934dd3adcf8b92f89d3a10c3962"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kx-publish-0.0.1.jar",
+          "url": "kx-publish-0.0.1.jar",
+          "size": 261,
+          "sha512": "b36efd2c586094bacad973727f058bf568d47007d88b53b03c9c14882388ac670f17c4b03d701cfccb2bb44b04ca32e1af26265278e45256b6f4e5b5df7d5e3f",
+          "sha256": "b4b50eea791162602adf81550dc83a82e0116161fdc596af8c8246d25445da86",
+          "sha1": "ebb2f430756d69afa47385d2f00940efdb046769",
+          "md5": "e4470934dd3adcf8b92f89d3a10c3962"
+        }
+      ]
+    }
+  ]
+}
