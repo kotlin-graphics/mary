@@ -3,8 +3,8 @@
   <groupId>kotlin.graphics.build-logic</groupId>
   <artifactId>kx</artifactId>
   <versioning>
-    <latest>v0.7.0-16-2dcb353</latest>
-    <release>v0.7.0-16-2dcb353</release>
+    <latest>v0.7.0-17-a48819c</latest>
+    <release>v0.7.0-17-a48819c</release>
     <versions>
       <version>v0.7.0-9-d5203aa</version>
       <version>v0.7.0-10-b40f97d</version>
@@ -13,7 +13,8 @@
       <version>v0.7.0-14-b48743c</version>
       <version>v0.7.0-15-f2689b7</version>
       <version>v0.7.0-16-2dcb353</version>
+      <version>v0.7.0-17-a48819c</version>
     </versions>
-    <lastUpdated>20210314225117</lastUpdated>
+    <lastUpdated>20210314225602</lastUpdated>
   </versioning>
 </metadata>
