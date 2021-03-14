@@ -3,8 +3,8 @@
   <groupId>kx.lwjgl</groupId>
   <artifactId>kx.lwjgl.gradle.plugin</artifactId>
   <versioning>
-    <latest>v0.7.0-12-c83215a</latest>
-    <release>v0.7.0-12-c83215a</release>
+    <latest>v0.7.0-13-3273843</latest>
+    <release>v0.7.0-13-3273843</release>
     <versions>
       <version>0.6.3</version>
       <version>v0.7.0-4-4441c52</version>
@@ -16,7 +16,8 @@
       <version>v0.7.0-10-b40f97d</version>
       <version>v0.7.0-11-ab2e26f</version>
       <version>v0.7.0-12-c83215a</version>
+      <version>v0.7.0-13-3273843</version>
     </versions>
-    <lastUpdated>20210314170103</lastUpdated>
+    <lastUpdated>20210314170124</lastUpdated>
   </versioning>
 </metadata>

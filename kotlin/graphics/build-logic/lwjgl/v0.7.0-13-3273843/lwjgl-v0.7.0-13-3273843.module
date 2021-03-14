@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics.build-logic",
+    "module": "lwjgl",
+    "version": "v0.7.0-13-3273843",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0-milestone-3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "lwjgl-v0.7.0-13-3273843.jar",
+          "url": "lwjgl-v0.7.0-13-3273843.jar",
+          "size": 166154,
+          "sha512": "c97669039ce1006776aeecb172d1f0673fcc4290da7ae343f705b7cc84ee4dac00ab86d85ea173462cc9a67a64530aa03e5bfd12c9f6c5e0bfedc47f9fdc1a2f",
+          "sha256": "34d1bb278613fce4f870a45fa1af934cc83b5879f1fe78f7cc1de06ca3180520",
+          "sha1": "80d8c67f3b91106c1ed89c879f5ff36604e8d708",
+          "md5": "4c6d8aa76bdc65f2c0ec84442c549b5a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics.build-logic",
+          "module": "platform-plugin",
+          "version": {
+            "requires": "v0.7.0-13-3273843"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "lwjgl-v0.7.0-13-3273843.jar",
+          "url": "lwjgl-v0.7.0-13-3273843.jar",
+          "size": 166154,
+          "sha512": "c97669039ce1006776aeecb172d1f0673fcc4290da7ae343f705b7cc84ee4dac00ab86d85ea173462cc9a67a64530aa03e5bfd12c9f6c5e0bfedc47f9fdc1a2f",
+          "sha256": "34d1bb278613fce4f870a45fa1af934cc83b5879f1fe78f7cc1de06ca3180520",
+          "sha1": "80d8c67f3b91106c1ed89c879f5ff36604e8d708",
+          "md5": "4c6d8aa76bdc65f2c0ec84442c549b5a"
+        }
+      ]
+    }
+  ]
+}
