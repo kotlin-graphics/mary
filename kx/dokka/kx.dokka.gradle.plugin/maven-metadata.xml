@@ -3,8 +3,8 @@
   <groupId>kx.dokka</groupId>
   <artifactId>kx.dokka.gradle.plugin</artifactId>
   <versioning>
-    <latest>v0.7.0-20-06a141e</latest>
-    <release>v0.7.0-20-06a141e</release>
+    <latest>v0.7.0-21-616708c</latest>
+    <release>v0.7.0-21-616708c</release>
     <versions>
       <version>0.6.3</version>
       <version>v0.7.0-4-4441c52</version>
@@ -24,7 +24,8 @@
       <version>v0.7.0-18-fcd9cbf</version>
       <version>v0.7.0-19-c80ed09</version>
       <version>v0.7.0-20-06a141e</version>
+      <version>v0.7.0-21-616708c</version>
     </versions>
-    <lastUpdated>20210314230636</lastUpdated>
+    <lastUpdated>20210314231149</lastUpdated>
   </versioning>
 </metadata>
