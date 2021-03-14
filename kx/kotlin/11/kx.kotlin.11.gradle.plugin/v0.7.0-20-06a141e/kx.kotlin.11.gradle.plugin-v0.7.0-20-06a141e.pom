@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>kx.kotlin.11</groupId>
+  <artifactId>kx.kotlin.11.gradle.plugin</artifactId>
+  <version>v0.7.0-20-06a141e</version>
+  <packaging>pom</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>kotlin.graphics.build-logic</groupId>
+      <artifactId>11</artifactId>
+      <version>v0.7.0-20-06a141e</version>
+    </dependency>
+  </dependencies>
+</project>
