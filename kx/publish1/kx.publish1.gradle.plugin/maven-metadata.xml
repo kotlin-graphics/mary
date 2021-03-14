@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>kotlin.graphics.build-logic</groupId>
-  <artifactId>publish</artifactId>
+  <groupId>kx.publish1</groupId>
+  <artifactId>kx.publish1.gradle.plugin</artifactId>
   <versioning>
     <latest>0.0.2</latest>
     <release>0.0.2</release>

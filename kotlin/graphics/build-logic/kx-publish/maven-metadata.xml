@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>kx.publish</groupId>
-  <artifactId>kx.publish.gradle.plugin</artifactId>
+  <groupId>kotlin.graphics.build-logic</groupId>
+  <artifactId>kx-publish</artifactId>
   <versioning>
     <latest>0.0.3</latest>
     <release>0.0.3</release>
@@ -9,6 +9,6 @@
       <version>0.0.2</version>
       <version>0.0.3</version>
     </versions>
-    <lastUpdated>20210314165621</lastUpdated>
+    <lastUpdated>20210314165622</lastUpdated>
   </versioning>
 </metadata>
