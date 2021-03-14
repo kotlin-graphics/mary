@@ -3,11 +3,12 @@
   <groupId>kotlin.graphics.build-logic</groupId>
   <artifactId>impl</artifactId>
   <versioning>
-    <latest>v0.7.0-4-4441c52</latest>
-    <release>v0.7.0-4-4441c52</release>
+    <latest>v0.7.0-5-800f1be</latest>
+    <release>v0.7.0-5-800f1be</release>
     <versions>
       <version>v0.7.0-4-4441c52</version>
+      <version>v0.7.0-5-800f1be</version>
     </versions>
-    <lastUpdated>20210314005453</lastUpdated>
+    <lastUpdated>20210314005915</lastUpdated>
   </versioning>
 </metadata>
