@@ -3,8 +3,8 @@
   <groupId>kotlin.graphics.build-logic</groupId>
   <artifactId>lwjgl</artifactId>
   <versioning>
-    <latest>v0.7.0-13-3273843</latest>
-    <release>v0.7.0-13-3273843</release>
+    <latest>v0.7.0-14-b48743c</latest>
+    <release>v0.7.0-14-b48743c</release>
     <versions>
       <version>v0.7.0-4-4441c52</version>
       <version>v0.7.0-5-800f1be</version>
@@ -16,7 +16,8 @@
       <version>v0.7.0-11-ab2e26f</version>
       <version>v0.7.0-12-c83215a</version>
       <version>v0.7.0-13-3273843</version>
+      <version>v0.7.0-14-b48743c</version>
     </versions>
-    <lastUpdated>20210314170124</lastUpdated>
+    <lastUpdated>20210314210941</lastUpdated>
   </versioning>
 </metadata>
