@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>kotlin.graphics.build-logic</groupId>
+  <artifactId>platform-test</artifactId>
+  <versioning>
+    <latest>v0.7.0-9-d5203aa</latest>
+    <release>v0.7.0-9-d5203aa</release>
+    <versions>
+      <version>v0.7.0-9-d5203aa</version>
+    </versions>
+    <lastUpdated>20210314125514</lastUpdated>
+  </versioning>
+</metadata>

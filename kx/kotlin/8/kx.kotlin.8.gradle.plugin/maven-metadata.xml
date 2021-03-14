@@ -3,15 +3,17 @@
   <groupId>kx.kotlin.8</groupId>
   <artifactId>kx.kotlin.8.gradle.plugin</artifactId>
   <versioning>
-    <latest>v0.7.0-8-91d69f4</latest>
-    <release>v0.7.0-8-91d69f4</release>
+    <latest>v0.7.0-9-d5203aa</latest>
+    <release>v0.7.0-9-d5203aa</release>
     <versions>
       <version>0.6.3</version>
       <version>v0.7.0-4-4441c52</version>
       <version>v0.7.0-5-800f1be</version>
       <version>v0.7.0-6-55898c4</version>
       <version>v0.7.0-8-91d69f4</version>
+      <version>0.7.2</version>
+      <version>v0.7.0-9-d5203aa</version>
     </versions>
-    <lastUpdated>20210314011528</lastUpdated>
+    <lastUpdated>20210314125515</lastUpdated>
   </versioning>
 </metadata>
