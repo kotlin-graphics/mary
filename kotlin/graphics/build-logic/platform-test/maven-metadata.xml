@@ -3,12 +3,13 @@
   <groupId>kotlin.graphics.build-logic</groupId>
   <artifactId>platform-test</artifactId>
   <versioning>
-    <latest>v0.7.0-10-b40f97d</latest>
-    <release>v0.7.0-10-b40f97d</release>
+    <latest>v0.7.0-11-ab2e26f</latest>
+    <release>v0.7.0-11-ab2e26f</release>
     <versions>
       <version>v0.7.0-9-d5203aa</version>
       <version>v0.7.0-10-b40f97d</version>
+      <version>v0.7.0-11-ab2e26f</version>
     </versions>
-    <lastUpdated>20210314125814</lastUpdated>
+    <lastUpdated>20210314165851</lastUpdated>
   </versioning>
 </metadata>
