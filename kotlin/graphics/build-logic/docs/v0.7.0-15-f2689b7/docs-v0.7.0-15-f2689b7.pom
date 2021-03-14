@@ -14,7 +14,7 @@
       <dependency>
         <groupId>kotlin.graphics.build-logic</groupId>
         <artifactId>platform-plugin</artifactId>
-        <version>0.7.4</version>
+        <version>v0.7.0-15-f2689b7</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
