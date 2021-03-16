@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "unsigned",
+    "version": "3.2.9+17",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "zkqdzqdhazbcdazkca7rqnrshe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "unsigned-3.2.9+17.jar",
+          "url": "unsigned-3.2.9+17.jar",
+          "size": 47989,
+          "sha512": "46ce22bafb701130e74fd44e76673225ec27f11422fdde616af2ade352352465bc9596d7c0e92ac6fc1a025ec55fe37fbe2fc1abba51873ceba31ac4fdbbece4",
+          "sha256": "25c5e5efd2fed16a6b45407974c3ad6e497b299b50fe13fd687ad7cc3cd59683",
+          "sha1": "79a2b18eeeee0931b86b59854d2d9860a1213c80",
+          "md5": "b16231c58f9c9977949107401bf31475"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics.build-logic",
+          "module": "platform-source",
+          "version": {
+            "requires": "0.7.0+26"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unsigned-3.2.9+17.jar",
+          "url": "unsigned-3.2.9+17.jar",
+          "size": 47989,
+          "sha512": "46ce22bafb701130e74fd44e76673225ec27f11422fdde616af2ade352352465bc9596d7c0e92ac6fc1a025ec55fe37fbe2fc1abba51873ceba31ac4fdbbece4",
+          "sha256": "25c5e5efd2fed16a6b45407974c3ad6e497b299b50fe13fd687ad7cc3cd59683",
+          "sha1": "79a2b18eeeee0931b86b59854d2d9860a1213c80",
+          "md5": "b16231c58f9c9977949107401bf31475"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "unsigned-3.2.9+17-all.jar",
+          "url": "unsigned-3.2.9+17-all.jar",
+          "size": 1786394,
+          "sha512": "e1e8dd41113758bf099bbac6090829197f05cdfd506ff4458242c89345c09d3a59c718ecea89b9df8c2df82a1b2a20df155a8dcc741e4a92f701f5491a201bbc",
+          "sha256": "2d02a39776dd5d9f5fc14b31354b650b481f951266caf0ee2cdfdcd440145aa9",
+          "sha1": "2187d3ef1b4f8b682404a43ea567213a2c34acce",
+          "md5": "029af61e20709755fa2d756adeb24d5c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "unsigned-3.2.9+17-sources.jar",
+          "url": "unsigned-3.2.9+17-sources.jar",
+          "size": 9459,
+          "sha512": "846e95b02d0c1c5cf35b9f4b16738f776acab0c6429a0af094843c8b5979c27c392da4939a5c792d657e0374ae1ca22c3d0ef089f7f675df9decbf3f257d389b",
+          "sha256": "fa9adcb1e984c4277c49abf93b962d8cb48fdfb40f3187fb238401974a5a1d22",
+          "sha1": "f3b5ff4442ce7fa0f9e288b354465ab03587e3ec",
+          "md5": "ba25df9b2ea35be1be4a0bdd86ea11f4"
+        }
+      ]
+    }
+  ]
+}
