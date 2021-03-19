@@ -3,8 +3,8 @@
   <groupId>kotlin.graphics.build-logic</groupId>
   <artifactId>8</artifactId>
   <versioning>
-    <latest>$0.7.0+39</latest>
-    <release>$0.7.0+39</release>
+    <latest>0.7.0+40</latest>
+    <release>0.7.0+40</release>
     <versions>
       <version>v0.7.0-4-4441c52</version>
       <version>v0.7.0-5-800f1be</version>
@@ -38,7 +38,8 @@
       <version>0.7.0+36</version>
       <version>$0.7.0+38</version>
       <version>$0.7.0+39</version>
+      <version>0.7.0+40</version>
     </versions>
-    <lastUpdated>20210319192341</lastUpdated>
+    <lastUpdated>20210319192517</lastUpdated>
   </versioning>
 </metadata>
