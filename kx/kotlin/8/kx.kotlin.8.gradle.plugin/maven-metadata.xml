@@ -3,8 +3,8 @@
   <groupId>kx.kotlin.8</groupId>
   <artifactId>kx.kotlin.8.gradle.plugin</artifactId>
   <versioning>
-    <latest>0.7.0+31</latest>
-    <release>0.7.0+31</release>
+    <latest>0.7.0+32</latest>
+    <release>0.7.0+32</release>
     <versions>
       <version>0.6.3</version>
       <version>v0.7.0-4-4441c52</version>
@@ -33,7 +33,8 @@
       <version>0.7.0+28</version>
       <version>0.7.0+30</version>
       <version>0.7.0+31</version>
+      <version>0.7.0+32</version>
     </versions>
-    <lastUpdated>20210319172730</lastUpdated>
+    <lastUpdated>20210319172851</lastUpdated>
   </versioning>
 </metadata>
