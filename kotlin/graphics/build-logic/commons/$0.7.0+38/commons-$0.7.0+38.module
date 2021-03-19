@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics.build-logic",
+    "module": "commons",
+    "version": "$0.7.0+38",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0-milestone-3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "commons-$0.7.0+38.jar",
+          "url": "commons-$0.7.0+38.jar",
+          "size": 325160,
+          "sha512": "910a08de271e5aaa52bdc6c498b73675e1861d17574352d9a9d6f864cd929fa61285349a9f3f07543723619f5b963a48fd89ff5320314b8d37b4a5f3261f76d9",
+          "sha256": "89fd730138057ae6879fa090b83f10184596f28e675eba406730089d3ffc1750",
+          "sha1": "13151ab4db8dd4fa20c64d98d74a542fe6ec8044",
+          "md5": "5000a50a273eb020d5f83da59b3361b2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics.build-logic",
+          "module": "platform-plugin",
+          "version": {
+            "requires": "$0.7.0+38"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin.jvm",
+          "module": "org.jetbrains.kotlin.jvm.gradle.plugin"
+        },
+        {
+          "group": "com.github.johnrengelman.shadow",
+          "module": "com.github.johnrengelman.shadow.gradle.plugin"
+        },
+        {
+          "group": "kotlin.graphics.build-logic",
+          "module": "kx",
+          "version": {
+            "requires": "$0.7.0+38"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "commons-$0.7.0+38.jar",
+          "url": "commons-$0.7.0+38.jar",
+          "size": 325160,
+          "sha512": "910a08de271e5aaa52bdc6c498b73675e1861d17574352d9a9d6f864cd929fa61285349a9f3f07543723619f5b963a48fd89ff5320314b8d37b4a5f3261f76d9",
+          "sha256": "89fd730138057ae6879fa090b83f10184596f28e675eba406730089d3ffc1750",
+          "sha1": "13151ab4db8dd4fa20c64d98d74a542fe6ec8044",
+          "md5": "5000a50a273eb020d5f83da59b3361b2"
+        }
+      ]
+    }
+  ]
+}

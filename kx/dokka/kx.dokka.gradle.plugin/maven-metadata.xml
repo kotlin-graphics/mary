@@ -3,8 +3,8 @@
   <groupId>kx.dokka</groupId>
   <artifactId>kx.dokka.gradle.plugin</artifactId>
   <versioning>
-    <latest>0.7.0+36</latest>
-    <release>0.7.0+36</release>
+    <latest>$0.7.0+38</latest>
+    <release>$0.7.0+38</release>
     <versions>
       <version>0.6.3</version>
       <version>v0.7.0-4-4441c52</version>
@@ -38,7 +38,8 @@
       <version>0.7.0+34</version>
       <version>0.7.0+35</version>
       <version>0.7.0+36</version>
+      <version>$0.7.0+38</version>
     </versions>
-    <lastUpdated>20210319181056</lastUpdated>
+    <lastUpdated>20210319181804</lastUpdated>
   </versioning>
 </metadata>
