@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics.build-logic",
+    "module": "lwjgl",
+    "version": "0.7.0+41",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0-milestone-3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "lwjgl-0.7.0+41.jar",
+          "url": "lwjgl-0.7.0+41.jar",
+          "size": 166155,
+          "sha512": "12e09428b3a2e1e0654f0d5c9a5028975297d6aa499b6337b4bea6b031d534749e31aed2c58abeaf0fb1692e7a7a77b85f7ddf0d174d6c6f7d995145e5ba23aa",
+          "sha256": "be33ec8c7c99fb075d9f27ead34af1c25876bc6b1facaaf4fde3492deb76c809",
+          "sha1": "7060e717f7b816a165a819fc0b4dc279ceb47b5a",
+          "md5": "8fb4b52619ca7ee6f83d6e62a2c0bad2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics.build-logic",
+          "module": "platform-plugin",
+          "version": {
+            "requires": "0.7.0+41"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "lwjgl-0.7.0+41.jar",
+          "url": "lwjgl-0.7.0+41.jar",
+          "size": 166155,
+          "sha512": "12e09428b3a2e1e0654f0d5c9a5028975297d6aa499b6337b4bea6b031d534749e31aed2c58abeaf0fb1692e7a7a77b85f7ddf0d174d6c6f7d995145e5ba23aa",
+          "sha256": "be33ec8c7c99fb075d9f27ead34af1c25876bc6b1facaaf4fde3492deb76c809",
+          "sha1": "7060e717f7b816a165a819fc0b4dc279ceb47b5a",
+          "md5": "8fb4b52619ca7ee6f83d6e62a2c0bad2"
+        }
+      ]
+    }
+  ]
+}
