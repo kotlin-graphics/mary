@@ -3,8 +3,8 @@
   <groupId>kotlin.graphics.platform</groupId>
   <artifactId>source</artifactId>
   <versioning>
-    <latest>0.2.8+29</latest>
-    <release>0.2.8+29</release>
+    <latest>0.2.8+30</latest>
+    <release>0.2.8+30</release>
     <versions>
       <version>v0.1.9-7-5d87fb7</version>
       <version>v0.1.9-8-5572ae5</version>
@@ -24,7 +24,8 @@
       <version>0.2.8+27</version>
       <version>0.2.8+28</version>
       <version>0.2.8+29</version>
+      <version>0.2.8+30</version>
     </versions>
-    <lastUpdated>20210322141238</lastUpdated>
+    <lastUpdated>20210322143312</lastUpdated>
   </versioning>
 </metadata>
