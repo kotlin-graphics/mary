@@ -64,6 +64,6 @@ repositories {
 }
 ```
 
-### Snapshots
+### Releases
 
 Releases, which are less frequent, would be instead published on [scijava](https://maven.scijava.org/) (there is none yet).
