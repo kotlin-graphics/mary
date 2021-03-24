@@ -1,0 +1,232 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "vkk",
+    "version": "0.3.2+35",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "7cmbfabeyvezvabs35c762s46u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "vkk-0.3.2+35.jar",
+          "url": "vkk-0.3.2+35.jar",
+          "size": 1539952,
+          "sha512": "95ff26e4a4e47222f0b8a44f6f06423453d724fe99c488cd25ca9236b99199f4b6e9cda3943dac39d601c7540f86a78f73a33a6feb8d06caaf47541e0ed25ac3",
+          "sha256": "6d905e2742a455673510434e4716112c9effc10df1164048eff06fa606553127",
+          "sha1": "54d25a31ac0917ba4ea7591f22b8e7b2bdc2ec4b",
+          "md5": "f79007a074a91b1ab173a1c06f735eb6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics.platform",
+          "module": "source",
+          "version": {
+            "requires": "0.2.8+40"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "unsigned",
+          "excludes": [
+            {
+              "group": "kx.platform",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "kool",
+          "excludes": [
+            {
+              "group": "kx.platform",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "glm",
+          "excludes": [
+            {
+              "group": "kx.platform",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "gli",
+          "excludes": [
+            {
+              "group": "kx.platform",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-vulkan"
+        },
+        {
+          "group": "graphics.scenery",
+          "module": "spirvcrossj",
+          "version": {
+            "requires": "0.6.0-1.1.106.0"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-jemalloc",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "graphics.scenery",
+          "module": "spirvcrossj",
+          "version": {
+            "requires": "0.6.0-1.1.106.0"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "spirvcrossj",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vkk-0.3.2+35.jar",
+          "url": "vkk-0.3.2+35.jar",
+          "size": 1539952,
+          "sha512": "95ff26e4a4e47222f0b8a44f6f06423453d724fe99c488cd25ca9236b99199f4b6e9cda3943dac39d601c7540f86a78f73a33a6feb8d06caaf47541e0ed25ac3",
+          "sha256": "6d905e2742a455673510434e4716112c9effc10df1164048eff06fa606553127",
+          "sha1": "54d25a31ac0917ba4ea7591f22b8e7b2bdc2ec4b",
+          "md5": "f79007a074a91b1ab173a1c06f735eb6"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vkk-0.3.2+35-all.jar",
+          "url": "vkk-0.3.2+35-all.jar",
+          "size": 62027058,
+          "sha512": "f4aabb23b3036d10e7694a253ff1d3202ecc69c76515fd31cfdbb25e330c6c405735678f24bb1e54f371c3d7ef629fbea8d776c55b9f5615461b38675f0d3871",
+          "sha256": "ec49965d35f2125f00b0683b3bc0282c565e1d675ceae42b70bce80549de851f",
+          "sha1": "b1672a979a42d5f232ec204f061266a206d11d14",
+          "md5": "11c892714902f1ded0c00c7791be1df0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vkk-0.3.2+35-sources.jar",
+          "url": "vkk-0.3.2+35-sources.jar",
+          "size": 450559,
+          "sha512": "a899d0ef35311054e34458cadca13752eca3498a930c4cfd548b0227a1e7b6794e98092abea0ee6e4e802ca5c2f7cef1a13a6f5a962ec6824664e6db19d75e28",
+          "sha256": "e3c88e5b8dbcb2738a858a95003c88f3a77cda3334aeedf5a032b570cc3a5635",
+          "sha1": "01806ad6263371a335a9a21dafd219cd342b1cdf",
+          "md5": "b454d0d33c678263c6b9e45eee3d5d47"
+        }
+      ]
+    }
+  ]
+}
