@@ -1,0 +1,64 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics.build-logic",
+    "module": "kx",
+    "version": "0.7.0+69",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0-rc-1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kx-0.7.0+69.jar",
+          "url": "kx-0.7.0+69.jar",
+          "size": 18208,
+          "sha512": "51024d9cd1541af738a972a1ec446691d551cdc5cf66406047348b8e197780a03c7bf02352698b78e4e888f2fd88c1ed06ffa101e17ddd3661b76dba1b2cc71f",
+          "sha256": "ab64f2be70814795886eed4fe83eef60552eee4d23b1e418f32f860eb01974cb",
+          "sha1": "f0fe52bd9c2ef9671c699c235eb73c41d5877d95",
+          "md5": "458cd61b5512324b744717233847e758"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kx-0.7.0+69.jar",
+          "url": "kx-0.7.0+69.jar",
+          "size": 18208,
+          "sha512": "51024d9cd1541af738a972a1ec446691d551cdc5cf66406047348b8e197780a03c7bf02352698b78e4e888f2fd88c1ed06ffa101e17ddd3661b76dba1b2cc71f",
+          "sha256": "ab64f2be70814795886eed4fe83eef60552eee4d23b1e418f32f860eb01974cb",
+          "sha1": "f0fe52bd9c2ef9671c699c235eb73c41d5877d95",
+          "md5": "458cd61b5512324b744717233847e758"
+        }
+      ]
+    }
+  ]
+}
