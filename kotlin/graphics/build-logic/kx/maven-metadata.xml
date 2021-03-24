@@ -3,8 +3,8 @@
   <groupId>kotlin.graphics.build-logic</groupId>
   <artifactId>kx</artifactId>
   <versioning>
-    <latest>0.7.0+70</latest>
-    <release>0.7.0+70</release>
+    <latest>0.7.0+71</latest>
+    <release>0.7.0+71</release>
     <versions>
       <version>v0.7.0-9-d5203aa</version>
       <version>v0.7.0-10-b40f97d</version>
@@ -61,7 +61,8 @@
       <version>0.7.0+68</version>
       <version>0.7.0+69</version>
       <version>0.7.0+70</version>
+      <version>0.7.0+71</version>
     </versions>
-    <lastUpdated>20210324175449</lastUpdated>
+    <lastUpdated>20210324175844</lastUpdated>
   </versioning>
 </metadata>
