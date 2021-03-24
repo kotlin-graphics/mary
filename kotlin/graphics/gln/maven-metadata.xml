@@ -3,12 +3,13 @@
   <groupId>kotlin.graphics</groupId>
   <artifactId>gln</artifactId>
   <versioning>
-    <latest>0.5.2+15</latest>
-    <release>0.5.2+15</release>
+    <latest>0.5.2+21</latest>
+    <release>0.5.2+21</release>
     <versions>
       <version>0.5.2+14</version>
       <version>0.5.2+15</version>
+      <version>0.5.2+21</version>
     </versions>
-    <lastUpdated>20210322180446</lastUpdated>
+    <lastUpdated>20210324191613</lastUpdated>
   </versioning>
 </metadata>
