@@ -4,8 +4,8 @@ This is a custom maven repository created for convenience and developing speed
 - #### Maven Central
 
 Maven Central is, unfortunately, a pain to setup and Nexus is too slow, up to 20s for a simple platform
-and 10m for a proper project, with several projects and up to tens pushes a day, all these times eat too much precious
-developing time, which, in my case, is quite scarce.
+and 10m for a proper project, with several projects and up to tens pushes a day, all these overheads eat too much 
+precious developing time, which, in my case, is quite scarce.
 
 - #### Jitpack
 
