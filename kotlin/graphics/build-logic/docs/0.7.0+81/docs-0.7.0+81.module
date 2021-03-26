@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics.build-logic",
+    "module": "docs",
+    "version": "0.7.0+81",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "tiuzhxc7zvgitlfslt6ot2yffu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "docs-0.7.0+81.jar",
+          "url": "docs-0.7.0+81.jar",
+          "size": 311903,
+          "sha512": "8ee319aff1e112142083edfd1a8b7c925d6ee28c10e9d6f623c8c80402b52db64d5aa0990a61e69a13326ef931bd5fe80b3a5b2e21fb08a3c3e9baa8883bbf8a",
+          "sha256": "efb46348e025c44339549a9220717ea5ef973facd450343dfd9174595ac43155",
+          "sha1": "8176242624c694383e5169b4ad51f2dcce6f0099",
+          "md5": "2c20049b88e2c3c6355acbc4d0c4a958"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics.platform",
+          "module": "plugin",
+          "version": {
+            "requires": "0.2.8+42"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin"
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "docs-0.7.0+81.jar",
+          "url": "docs-0.7.0+81.jar",
+          "size": 311903,
+          "sha512": "8ee319aff1e112142083edfd1a8b7c925d6ee28c10e9d6f623c8c80402b52db64d5aa0990a61e69a13326ef931bd5fe80b3a5b2e21fb08a3c3e9baa8883bbf8a",
+          "sha256": "efb46348e025c44339549a9220717ea5ef973facd450343dfd9174595ac43155",
+          "sha1": "8176242624c694383e5169b4ad51f2dcce6f0099",
+          "md5": "2c20049b88e2c3c6355acbc4d0c4a958"
+        }
+      ]
+    }
+  ]
+}
