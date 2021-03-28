@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>kotlin.graphics.build-logic</groupId>
+  <artifactId>11</artifactId>
+  <version>0.7.0+85</version>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>kotlin.graphics.platform</groupId>
+        <artifactId>plugin</artifactId>
+        <version>0.2.8+42</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-gradle-plugin</artifactId>
+      <version>1.4.20</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>kotlin.graphics.build-logic</groupId>
+      <artifactId>commons</artifactId>
+      <version>0.7.0+85</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
