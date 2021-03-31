@@ -37,7 +37,8 @@ However, it's still perfectly fine using jitpack on consumer sides, in this case
 - Add the dependency
 
       dependencies {
-          implementation("kotlin.graphics:kotlin-unsigned:$version")
+          implementation("kotlin.graphics:unsigned:..")
+          implementation("kotlin.graphics:glm:..")
       }
 
 ### Plugins
