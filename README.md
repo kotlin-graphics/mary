@@ -37,12 +37,13 @@ However, it's still perfectly fine using jitpack on consumer sides, in this case
 - Add the dependency
 
       dependencies {
-          implementation("kotlin.graphics:kotlin-unsigned:$version")
+          implementation("kotlin.graphics:unsigned:..")
+          implementation("kotlin.graphics:glm:..")
       }
 
 ### Plugins
 
-In order to use kotlin-graphics plugins, in Gradle KTS you need to include this repo by adding the following to your `settings.gradle.kts`:
+In order to use kotlin-graphics plugins, (if you want, you shouldn't need it), in Gradle KTS you need to include this repo by adding the following to your `settings.gradle.kts`:
 
 ```kotlin
 pluginManagement {
