@@ -1,0 +1,224 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "imgui-glfw",
+    "version": "1.79+03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0-rc-1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "imgui-glfw-1.79+03.jar",
+          "url": "imgui-glfw-1.79+03.jar",
+          "size": 21467,
+          "sha512": "998406fcbef2108a4bd9c0e9872a08d7983f875297b463df3036a4108859eb0545505231ae531f1326dac774d4acbfc9d24dac23f3c6d30007d5110c54d2f146",
+          "sha256": "9a2a148699e78964196fdfbb2e62582828c4646574716c5ec088df127baecffd",
+          "sha1": "19ece3669b9993d3495cc60c16ed396a807f5d5e",
+          "md5": "11002f3b55a9299e9e2e2a237936baa9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics.platform",
+          "module": "source",
+          "version": {
+            "requires": "0.2.8+46"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "imgui-core",
+          "version": {
+            "requires": "1.79+03"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "kool"
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "glm"
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "uno-awt"
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "uno-core"
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "uno-vk"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-remotery"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-glfw",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-opengl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-remotery",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-remotery",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "imgui-glfw-1.79+03.jar",
+          "url": "imgui-glfw-1.79+03.jar",
+          "size": 21467,
+          "sha512": "998406fcbef2108a4bd9c0e9872a08d7983f875297b463df3036a4108859eb0545505231ae531f1326dac774d4acbfc9d24dac23f3c6d30007d5110c54d2f146",
+          "sha256": "9a2a148699e78964196fdfbb2e62582828c4646574716c5ec088df127baecffd",
+          "sha1": "19ece3669b9993d3495cc60c16ed396a807f5d5e",
+          "md5": "11002f3b55a9299e9e2e2a237936baa9"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "imgui-glfw-1.79+03-all.jar",
+          "url": "imgui-glfw-1.79+03-all.jar",
+          "size": 81126136,
+          "sha512": "6ad330260a4596326e59fb7d5d0656bf0155a27f52563517ec2097326cded3558881f4a4f57c819c63e0bf67d790d3b457eb877c37d7450991af7b2d22b7fdd2",
+          "sha256": "a191d9ac88e98d07434da334a37197d5e53665335d636fe0bed23d9b7c7945a2",
+          "sha1": "f29f108a3b3187b48db81f3f8ddc1b2424e7875c",
+          "md5": "3baf23c1822ff58104119c78fa10e552"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "imgui-glfw-1.79+03-sources.jar",
+          "url": "imgui-glfw-1.79+03-sources.jar",
+          "size": 4548,
+          "sha512": "7bb7c48ff89aae6a15628515f58e0233f4b9bb6f8d648350338fcdfc6844fa798b871e242827b983f6f45942776f4947ea732b2b80e7c783e40875e0b5f8a195",
+          "sha256": "c12c9b0fbcddb6f14e618f4cecef412360f3a10fe135f08a8dd8f8e9bb976198",
+          "sha1": "939e811c90b772b0d5b215c2a2cbeb8af4aba93e",
+          "md5": "0ec3c5cf7f42ed368ea71e1a3e175148"
+        }
+      ]
+    }
+  ]
+}

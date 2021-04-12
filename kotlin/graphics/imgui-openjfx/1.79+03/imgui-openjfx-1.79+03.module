@@ -1,0 +1,183 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "imgui-openjfx",
+    "version": "1.79+03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0-rc-1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "imgui-openjfx-1.79+03.jar",
+          "url": "imgui-openjfx-1.79+03.jar",
+          "size": 44115,
+          "sha512": "57d65089922132402abc0d9f1295badbce01869301348e1112480deff7b5343ef91c3fe63e944a941e2b16f7473aaed2a2ff6705301afc03c57e4769fef9d378",
+          "sha256": "a1c089c7850c7f907117de3d780e47d7ac761f53c74c998f1367d756aa927e1c",
+          "sha1": "84b7d7e9cac831b7ddff18695c885f027710e345",
+          "md5": "7fdb2cc5bf1262665b8b19a6678162cf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics.platform",
+          "module": "source",
+          "version": {
+            "requires": "0.2.8+46"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "imgui-core",
+          "version": {
+            "requires": "1.79+03"
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-base",
+          "version": {
+            "requires": "11"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-base",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-graphics",
+          "version": {
+            "requires": "11"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-graphics",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux"
+            }
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "glm"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "imgui-openjfx-1.79+03.jar",
+          "url": "imgui-openjfx-1.79+03.jar",
+          "size": 44115,
+          "sha512": "57d65089922132402abc0d9f1295badbce01869301348e1112480deff7b5343ef91c3fe63e944a941e2b16f7473aaed2a2ff6705301afc03c57e4769fef9d378",
+          "sha256": "a1c089c7850c7f907117de3d780e47d7ac761f53c74c998f1367d756aa927e1c",
+          "sha1": "84b7d7e9cac831b7ddff18695c885f027710e345",
+          "md5": "7fdb2cc5bf1262665b8b19a6678162cf"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "imgui-openjfx-1.79+03-all.jar",
+          "url": "imgui-openjfx-1.79+03-all.jar",
+          "size": 36310158,
+          "sha512": "f7db390abfe95ad279167203736517f6e7071678851fd1847fbf809e0f18bd27eeb6f1b6a9bb47ee5f89cbb625b88a87d4d3dc018b17c58ebb7a282530b97a7f",
+          "sha256": "a2b203ce477b2ab3e9579e87b64792836c3f1d0a1272aee016cec1e8c51f4dac",
+          "sha1": "3bc64b02e75380baec21b57c8fe804f56b3bd21c",
+          "md5": "b96adfcffbe2b6b9d0e9c245b2952e52"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "imgui-openjfx-1.79+03-sources.jar",
+          "url": "imgui-openjfx-1.79+03-sources.jar",
+          "size": 9271,
+          "sha512": "57a9788f8ecceeb8b1b64b2e9ba1816f4d26508fe011866619d7846a3fed310e167b853ff1ab4cbd922fa65f3eba64116de748da80d7be898a56531600dba265",
+          "sha256": "edb3bdb62ad16348ecc22bd695fd517313dc52f76c4ee943bee8ea571542d36b",
+          "sha1": "8f636b3bf38a40c6a81d99a41a54f41bd2c60241",
+          "md5": "8f647b25e9bf63cc496f1e6c6400de88"
+        }
+      ]
+    }
+  ]
+}

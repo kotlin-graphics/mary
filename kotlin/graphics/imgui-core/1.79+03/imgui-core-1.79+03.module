@@ -1,0 +1,201 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "imgui-core",
+    "version": "1.79+03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0-rc-1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "imgui-core-1.79+03.jar",
+          "url": "imgui-core-1.79+03.jar",
+          "size": 17463358,
+          "sha512": "879078298758bab419a75f85b95c0c84e79902ebc007785cfb31175f57cbcd4b017a4eee9feeb130eec5bd3f2b249374c60b0ed5c2f85ca5d7a324a59500b54e",
+          "sha256": "be50565e3c0ad66d84ee00aa6702ff1683fdaaac2c4e866ded01ade2aae0d976",
+          "sha1": "4669b81a67390532462dd04789bebda48fd6d493",
+          "md5": "848d12c8a9b1571cb583673327110f07"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics.platform",
+          "module": "source",
+          "version": {
+            "requires": "0.2.8+46"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "unsigned"
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "kool"
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "glm"
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "gli"
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "uno-core"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-stb"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-jemalloc",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-stb",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-stb",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "imgui-core-1.79+03.jar",
+          "url": "imgui-core-1.79+03.jar",
+          "size": 17463358,
+          "sha512": "879078298758bab419a75f85b95c0c84e79902ebc007785cfb31175f57cbcd4b017a4eee9feeb130eec5bd3f2b249374c60b0ed5c2f85ca5d7a324a59500b54e",
+          "sha256": "be50565e3c0ad66d84ee00aa6702ff1683fdaaac2c4e866ded01ade2aae0d976",
+          "sha1": "4669b81a67390532462dd04789bebda48fd6d493",
+          "md5": "848d12c8a9b1571cb583673327110f07"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "imgui-core-1.79+03-all.jar",
+          "url": "imgui-core-1.79+03-all.jar",
+          "size": 30606586,
+          "sha512": "1baccc1afaa85f21a48e54fd84b19662ba140633797430620152f4420091510895e6a2cec7db3a7a27cb4e3f5571f3421b61926b90f64a2cef4819edc4408e37",
+          "sha256": "90276b739f0bc0513ffbcf38f4c1e21ee69a803593c20b7fafa6a84d0b2e0003",
+          "sha1": "6f534646f8bc09062c650907abc398714a016f81",
+          "md5": "3b8cde48114c6bf8590c039ae030d42d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "imgui-core-1.79+03-sources.jar",
+          "url": "imgui-core-1.79+03-sources.jar",
+          "size": 15944136,
+          "sha512": "7998d5a4eeb5c042a61617c88dab89ee91f145278175e0eb39827bbe41a222e5fb62d08a4e09ca1f0fb97d279f51d4271983ef0f18b368b0d5e798d8062e5238",
+          "sha256": "9133a006fde196507adcafc0efa370a978f8795b3b255aba9f28ffd173b9e386",
+          "sha1": "bfd48cf4102f596565727ea24fbf5b798606c23c",
+          "md5": "bd14288ff12f28066b754c89c85980e5"
+        }
+      ]
+    }
+  ]
+}
