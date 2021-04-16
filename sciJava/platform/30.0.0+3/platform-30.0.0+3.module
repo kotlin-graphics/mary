@@ -1,0 +1,6196 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "sciJava",
+    "module": "platform",
+    "version": "30.0.0+3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.scijava",
+          "module": "batch-processor",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "minimaven",
+          "version": {
+            "requires": "2.2.2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "native-lib-loader",
+          "version": {
+            "requires": "2.3.4"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "parsington",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-cache",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-common",
+          "version": {
+            "requires": "2.85.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-config",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-grab",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-io-http",
+          "version": {
+            "requires": "0.2.1"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-java3d",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-listeners",
+          "version": {
+            "requires": "1.0.0-beta-3"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-log-slf4j",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-optional",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-plugins-commands",
+          "version": {
+            "requires": "0.2.3"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-plugins-io-table",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-plugins-platforms",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-plugins-text-markdown",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-plugins-text-plain",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-search",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-table",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-ui-awt",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-ui-swing",
+          "version": {
+            "requires": "0.13.2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "script-editor",
+          "version": {
+            "requires": "0.5.6"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-beanshell",
+          "version": {
+            "requires": "0.3.4"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-clojure",
+          "version": {
+            "requires": "0.1.6"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-groovy",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-java",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-javascript",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-jruby",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-jython",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-kotlin",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-matlab",
+          "version": {
+            "requires": "0.5.2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-renjin",
+          "version": {
+            "requires": "0.2.3"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-scala",
+          "version": {
+            "requires": "0.2.2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "swing-checkbox-tree",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "ui-behaviour",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "junit-benchmarks",
+          "version": {
+            "requires": "0.7.4-scijava"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "ij",
+          "version": {
+            "requires": "1.53d"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "ij1-patcher",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-common",
+          "version": {
+            "requires": "0.34.0"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-deprecated",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-launcher",
+          "version": {
+            "requires": "6.0.1"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-legacy",
+          "version": {
+            "requires": "0.37.4"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-matlab",
+          "version": {
+            "requires": "0.7.4"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-mesh",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-mesh-io",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-notebook",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-omero",
+          "version": {
+            "requires": "1.0.0-5.5"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-omero-legacy",
+          "version": {
+            "requires": "1.0.0-5.5"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-opencv",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-ops",
+          "version": {
+            "requires": "0.45.5"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-plugins-batch",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-plugins-commands",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-plugins-tools",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-plugins-uploader-ssh",
+          "version": {
+            "requires": "0.3.2"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-plugins-uploader-webdav",
+          "version": {
+            "requires": "0.3.2"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-scripting",
+          "version": {
+            "requires": "0.8.2"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-server",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-tensorflow",
+          "version": {
+            "requires": "1.1.5"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-ui-awt",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-ui-swing",
+          "version": {
+            "requires": "0.23.2"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-updater",
+          "version": {
+            "requires": "0.10.5"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "op-finder",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2",
+          "version": {
+            "requires": "5.11.1"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-algorithm",
+          "version": {
+            "requires": "0.11.2"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-algorithm-fft",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-algorithm-gpl",
+          "version": {
+            "requires": "0.2.5"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-cache",
+          "version": {
+            "requires": "1.0.0-beta-15"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-ij",
+          "version": {
+            "requires": "2.0.0-beta-46"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-realtransform",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-roi",
+          "version": {
+            "requires": "0.10.4"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-script",
+          "version": {
+            "requires": "0.2.4"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-ui",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-unsafe",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "io.scif",
+          "module": "scifio",
+          "version": {
+            "requires": "0.41.1"
+          }
+        },
+        {
+          "group": "io.scif",
+          "module": "scifio-bf-compat",
+          "version": {
+            "requires": "4.1.0"
+          }
+        },
+        {
+          "group": "io.scif",
+          "module": "scifio-cli",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "io.scif",
+          "module": "scifio-hdf5",
+          "version": {
+            "requires": "0.2.1"
+          }
+        },
+        {
+          "group": "io.scif",
+          "module": "scifio-jai-imageio",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "io.scif",
+          "module": "scifio-lifesci",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "io.scif",
+          "module": "scifio-ome-xml",
+          "version": {
+            "requires": "0.16.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "fiji",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "AnalyzeSkeleton_",
+          "version": {
+            "requires": "3.4.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Anisotropic_Diffusion_2D",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Archipelago_Plugins",
+          "version": {
+            "requires": "0.5.4"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Arrow_",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Auto_Local_Threshold",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Auto_Threshold",
+          "version": {
+            "requires": "1.17.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "BalloonSegmentation_",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Bug_Submitter",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "CPU_Meter",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Calculator_Plus",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Cell_Counter",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Colocalisation_Analysis",
+          "version": {
+            "requires": "3.0.5"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Color_Histogram",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Color_Inspector_3D",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Colour_Deconvolution",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "CorrectBleach_",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Correct_3D_Drift",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Descriptor_based_registration",
+          "version": {
+            "requires": "2.1.7"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Dichromacy_",
+          "version": {
+            "requires": "2.1.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Directionality_",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "FS_Align_TrakEM2",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Feature_Detection",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Fiji_Archipelago",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Fiji_Developer",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Fiji_Package_Maker",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Fiji_Plugins",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "FilamentDetector",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "FlowJ_",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Graph_Cut",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Gray_Morphology",
+          "version": {
+            "requires": "2.3.5"
+          }
+        },
+        {
+          "group": "org.janelia",
+          "module": "H5J_Loader_Plugin",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "HDF5_Vibez",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Helmholtz_Analysis",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "IJ_Robot",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "IO_",
+          "version": {
+            "requires": "4.1.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Image_5D",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Image_Expression_Parser",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Interactive_3D_Surface_Plot",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "IsoData_Classifier",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Kappa",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Kuwahara_Filter",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "KymographBuilder",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "LSM_Reader",
+          "version": {
+            "requires": "4.1.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "LSM_Toolbox",
+          "version": {
+            "requires": "4.1.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Lasso_and_Blow_Tool",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Linear_Kuwahara",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "LocalThickness_",
+          "version": {
+            "requires": "4.0.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "MTrack2_",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "M_I_P",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Manual_Tracking",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Multi_Kymograph",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "OMEVisual",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "PIV_analyser",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "QuickPALM_",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "RATS_",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Reconstruct_Reader",
+          "version": {
+            "requires": "2.0.4"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "SPIM_Opener",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "SPIM_Registration",
+          "version": {
+            "requires": "5.0.21"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Samples_",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Series_Labeler",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Siox_Segmentation",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Skeletonize3D_",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "SplineDeformationGenerator_",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Stack_Manipulation",
+          "version": {
+            "requires": "2.1.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Statistical_Region_Merging",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Stitching_",
+          "version": {
+            "requires": "3.1.6"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Sync_Win",
+          "version": {
+            "requires": "1.7-fiji4"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Thread_Killer",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Time_Lapse",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Time_Stamper",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "ToAST_",
+          "version": {
+            "requires": "25.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "TopoJ_",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "TrackMate_",
+          "version": {
+            "requires": "6.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Trainable_Segmentation",
+          "version": {
+            "requires": "3.2.34"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "TrakEM2_Archipelago",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "VIB-lib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "VIB_",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Vaa3d_Reader",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Vaa3d_Writer",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Video_Editing",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "View5D_",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Volume_Calculator",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Volume_Viewer",
+          "version": {
+            "requires": "2.01.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "bUnwarpJ_",
+          "version": {
+            "requires": "2.6.13"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "bij",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "blockmatching_",
+          "version": {
+            "requires": "2.1.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "fiji-lib",
+          "version": {
+            "requires": "2.1.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "legacy-imglib1",
+          "version": {
+            "requires": "1.1.9"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "level_sets",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "pal-optimization",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "panorama_",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "register_virtual_stack_slices",
+          "version": {
+            "requires": "3.0.5"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "registration_3d",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "weave_jy2java",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "bigdataviewer-core",
+          "version": {
+            "requires": "9.0.6"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "bigdataviewer-server",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "bigdataviewer-vistools",
+          "version": {
+            "requires": "1.0.0-beta-21"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "bigdataviewer_fiji",
+          "version": {
+            "requires": "6.2.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "spim_data",
+          "version": {
+            "requires": "2.2.4"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "T2-NIT",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "T2-TreelineGraph",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "TrakEM2_",
+          "version": {
+            "requires": "1.3.4"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "VectorString",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "trakem2-transform",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-label-multisets",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "org.janelia.saalfeldlab",
+          "module": "n5",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "org.janelia.saalfeldlab",
+          "module": "n5-aws-s3",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "org.janelia.saalfeldlab",
+          "module": "n5-blosc",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.janelia.saalfeldlab",
+          "module": "n5-google-cloud",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.janelia.saalfeldlab",
+          "module": "n5-hdf5",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.janelia.saalfeldlab",
+          "module": "n5-viewer_fiji",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.janelia.saalfeldlab",
+          "module": "n5-zarr",
+          "version": {
+            "requires": "0.0.4"
+          }
+        },
+        {
+          "group": "org.bonej",
+          "module": "bonej-plugins",
+          "version": {
+            "requires": "7.0.7"
+          }
+        },
+        {
+          "group": "org.bonej",
+          "module": "bonej-ops",
+          "version": {
+            "requires": "7.0.7"
+          }
+        },
+        {
+          "group": "org.bonej",
+          "module": "bonej-legacy-plugins_",
+          "version": {
+            "requires": "7.0.7"
+          }
+        },
+        {
+          "group": "org.bonej",
+          "module": "bonej-legacy-util_",
+          "version": {
+            "requires": "7.0.7"
+          }
+        },
+        {
+          "group": "org.bonej",
+          "module": "bonej-utilities",
+          "version": {
+            "requires": "7.0.7"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "metakit",
+          "version": {
+            "requires": "5.3.2"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "ome-common",
+          "version": {
+            "requires": "6.0.4"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "ome-poi",
+          "version": {
+            "requires": "5.3.3"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "ome-xml",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "ome",
+          "module": "jxrlib-all",
+          "version": {
+            "requires": "0.2.4"
+          }
+        },
+        {
+          "group": "ome",
+          "module": "formats-api",
+          "version": {
+            "requires": "6.5.1"
+          }
+        },
+        {
+          "group": "ome",
+          "module": "formats-bsd",
+          "version": {
+            "requires": "6.5.1"
+          }
+        },
+        {
+          "group": "ome",
+          "module": "formats-gpl",
+          "version": {
+            "requires": "6.5.1"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "omero-blitz",
+          "version": {
+            "requires": "5.5.6"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "omero-common",
+          "version": {
+            "requires": "5.5.5"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "omero-dsl-plugin",
+          "version": {
+            "requires": "5.5.0"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "omero-gateway",
+          "version": {
+            "requires": "5.6.3"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "omero-model",
+          "version": {
+            "requires": "5.6.0"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "omero-renderer",
+          "version": {
+            "requires": "5.5.5"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "omero-romio",
+          "version": {
+            "requires": "5.6.0"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "omero-server",
+          "version": {
+            "requires": "5.5.6"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-ant",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-astbuilder",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bsf",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-cli-commons",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-cli-picocli",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-console",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-datetime",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-docgenerator",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-groovydoc",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-groovysh",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-jaxb",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-jmx",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-json",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-macro",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-nio",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-servlet",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-sql",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-test",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-test-junit5",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-testng",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-xml",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-yaml",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.apache.maven.shared",
+          "module": "maven-artifact-transfer",
+          "version": {
+            "requires": "0.12.0"
+          }
+        },
+        {
+          "group": "org.apache.maven.shared",
+          "module": "maven-common-artifact-filters",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "org.apache.maven.plugin-tools",
+          "module": "maven-plugin-tools-api",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "org.sonatype.sisu",
+          "module": "sisu-inject-bean",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "org.sonatype.sisu",
+          "module": "sisu-inject-plexus",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "org.apache.poi",
+          "module": "poi",
+          "version": {
+            "requires": "3.17"
+          }
+        },
+        {
+          "group": "org.apache.spark",
+          "module": "spark-core_2.11",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.12"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore",
+          "version": {
+            "requires": "4.4.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-anim",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-awt-util",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-bridge",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-codec",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-costants",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-css",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-dom",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-ext",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-extentions",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-gui-util",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-gvt",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-i18n",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-parser",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-rasterizer",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-rasterizer-ext",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-script",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-slideshow",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-squiggle",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-squiggle-ext",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-svg-dom",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-svggen",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-svgpp",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-swing",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-transcoder",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-ttf2svg",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-util",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-xml",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "xmlgraphics-commons",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "commons-beanutils",
+          "module": "commons-beanutils",
+          "version": {
+            "requires": "1.9.4"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.14"
+          }
+        },
+        {
+          "group": "commons-collections",
+          "module": "commons-collections",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.20"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.7"
+          }
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.10"
+          }
+        },
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.8"
+          }
+        },
+        {
+          "group": "org.eclipse.collections",
+          "module": "eclipse-collections",
+          "version": {
+            "requires": "10.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.collections",
+          "module": "eclipse-collections-api",
+          "version": {
+            "requires": "10.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.collections",
+          "module": "eclipse-collections-forkjoin",
+          "version": {
+            "requires": "10.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.collections",
+          "module": "eclipse-collections-testutils",
+          "version": {
+            "requires": "10.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.cocoa.macosx",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.cocoa.macosx.x86_64",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.aix.ppc",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.aix.ppc64",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.hpux.ia64",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.linux.ppc",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.linux.ppc64",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.linux.s390",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.linux.s390x",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.linux.x86",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.linux.x86_64",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.solaris.sparc",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.solaris.x86",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.win32.win32.x86",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.win32.win32.x86_64",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-annotations",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-client",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-continuation",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-deploy",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-http",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-http-spi",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-io",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-jaas",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-jaspi",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-jmx",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-jndi",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-nosql",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-plus",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-proxy",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-rewrite",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-security",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-server",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-servlet",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-servlets",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-spring",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-start",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-util",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-util-ajax",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-webapp",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-xml",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.jgrapht",
+          "module": "jgrapht-core",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jgrapht",
+          "module": "jgrapht-demo",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jgrapht",
+          "module": "jgrapht-ext",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jgrapht",
+          "module": "jgrapht-guava",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jgrapht",
+          "module": "jgrapht-io",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jgrapht",
+          "module": "jgrapht-opt",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jogamp.gluegen",
+          "module": "gluegen-rt-main",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "org.jogamp.joal",
+          "module": "joal-main",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "org.jogamp.jocl",
+          "module": "jocl-main",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "org.jogamp.jogl",
+          "module": "jogl-all-main",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-embeddable",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-daemon-embeddable",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-script-runtime",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-script-util",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-script-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-compiler-embeddable",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-jvm",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-core",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "com.miglayout",
+          "module": "miglayout-core",
+          "version": {
+            "requires": "5.2"
+          }
+        },
+        {
+          "group": "com.miglayout",
+          "module": "miglayout-swing",
+          "version": {
+            "requires": "5.2"
+          }
+        },
+        {
+          "group": "com.miglayout",
+          "module": "miglayout-swt",
+          "version": {
+            "requires": "5.2"
+          }
+        },
+        {
+          "group": "com.fifesoft",
+          "module": "rsyntaxtextarea",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "com.fifesoft",
+          "module": "autocomplete",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "com.fifesoft",
+          "module": "languagesupport",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-ext",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-jcl",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-jdk14",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-nop",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-simple",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.26"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml-engine",
+          "version": {
+            "requires": "2.1"
+          }
+        },
+        {
+          "group": "org.tensorflow",
+          "module": "tensorflow",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.tensorflow",
+          "module": "libtensorflow",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.tensorflow",
+          "module": "libtensorflow_jni",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.tensorflow",
+          "module": "libtensorflow_jni_gpu",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.tensorflow",
+          "module": "proto",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.6.2"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-engine",
+          "version": {
+            "requires": "5.6.2"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-migrationsupport",
+          "version": {
+            "requires": "5.6.2"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-params",
+          "version": {
+            "requires": "5.6.2"
+          }
+        },
+        {
+          "group": "org.junit.vintage",
+          "module": "junit-vintage-engine",
+          "version": {
+            "requires": "5.6.2"
+          }
+        },
+        {
+          "group": "org.openjdk.jmh",
+          "module": "jmh-core",
+          "version": {
+            "requires": "1.23"
+          }
+        },
+        {
+          "group": "org.openjdk.jmh",
+          "module": "jmh-generator-annprocess",
+          "version": {
+            "requires": "1.23"
+          }
+        },
+        {
+          "group": "org.morphonets",
+          "module": "SNT",
+          "version": {
+            "requires": "3.1.112"
+          }
+        },
+        {
+          "group": "jitk",
+          "module": "jitk-tps",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "bigwarp_fiji",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "mpicbg",
+          "module": "mpicbg",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "trakem2_tps",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "z_spacing",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "fr.inra.ijpb",
+          "module": "MorphoLibJ_",
+          "version": {
+            "requires": "1.4.2.1"
+          }
+        },
+        {
+          "group": "net.preibisch",
+          "module": "BigStitcher",
+          "version": {
+            "requires": "0.5.8"
+          }
+        },
+        {
+          "group": "net.preibisch",
+          "module": "multiview-reconstruction",
+          "version": {
+            "requires": "0.7.2"
+          }
+        },
+        {
+          "group": "net.preibisch",
+          "module": "multiview-simulation",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "net.clearcontrol",
+          "module": "coremem",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "net.clearvolume",
+          "module": "cleargl",
+          "version": {
+            "requires": "2.2.10"
+          }
+        },
+        {
+          "group": "graphics.scenery",
+          "module": "scenery",
+          "version": {
+            "requires": "0.7.0-beta-7"
+          }
+        },
+        {
+          "group": "sc.iview",
+          "module": "sciview",
+          "version": {
+            "requires": "0.2.0-beta-5"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-s3",
+          "version": {
+            "requires": "1.11.796"
+          }
+        },
+        {
+          "group": "org.lasersonlab",
+          "module": "jblosc",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "javax.enterprise",
+          "module": "cdi-api",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "cglib",
+          "module": "cglib",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "21.0"
+          }
+        },
+        {
+          "group": "hsqldb",
+          "module": "hsqldb",
+          "version": {
+            "requires": "1.8.0.10"
+          }
+        },
+        {
+          "group": "com.itextpdf",
+          "module": "itextpdf",
+          "version": {
+            "requires": "5.5.13.1"
+          }
+        },
+        {
+          "group": "org.apache.jackrabbit",
+          "module": "jackrabbit-webdav",
+          "version": {
+            "requires": "2.21.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.sun.media",
+          "module": "jai-codec",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "javax.media",
+          "module": "jai-core",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "gov.nist.math",
+          "module": "jama",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "j3dcore",
+          "version": {
+            "requires": "1.6.0-scijava-2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "j3dutils",
+          "version": {
+            "requires": "1.6.0-scijava-2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "vecmath",
+          "version": {
+            "requires": "1.6.0-scijava-2"
+          }
+        },
+        {
+          "group": "org.javassist",
+          "module": "javassist",
+          "version": {
+            "requires": "3.27.0-GA"
+          }
+        },
+        {
+          "group": "org.jdom",
+          "module": "jdom2",
+          "version": {
+            "requires": "2.0.6"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "jep",
+          "version": {
+            "requires": "2.4.2"
+          }
+        },
+        {
+          "group": "org.jfree",
+          "module": "jfreechart",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jfree",
+          "module": "jfreesvg",
+          "version": {
+            "requires": "3.4"
+          }
+        },
+        {
+          "group": "com.github.vlsi.mxgraph",
+          "module": "jgraphx",
+          "version": {
+            "requires": "4.1.0"
+          }
+        },
+        {
+          "group": "cisd",
+          "module": "jhdf5",
+          "version": {
+            "requires": "14.12.6"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "4.5.2"
+          }
+        },
+        {
+          "group": "joda-time",
+          "module": "joda-time",
+          "version": {
+            "requires": "2.10.6"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "org.jpedal",
+          "module": "jpedalSTD",
+          "version": {
+            "requires": "2.80b11"
+          }
+        },
+        {
+          "group": "com.jcraft",
+          "module": "jsch",
+          "version": {
+            "requires": "0.1.55"
+          }
+        },
+        {
+          "group": "org.python",
+          "module": "jython-slim",
+          "version": {
+            "requires": "2.7.2"
+          }
+        },
+        {
+          "group": "com.jcraft",
+          "module": "jzlib",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "org.lz4",
+          "module": "lz4-java",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.mapdb",
+          "module": "mapdb",
+          "version": {
+            "requires": "3.0.8"
+          }
+        },
+        {
+          "group": "edu.mines",
+          "module": "mines-jtk",
+          "version": {
+            "requires": "20151125"
+          }
+        },
+        {
+          "group": "org.ojalgo",
+          "module": "ojalgo",
+          "version": {
+            "requires": "45.1.1"
+          }
+        },
+        {
+          "group": "com.opencsv",
+          "module": "opencsv",
+          "version": {
+            "requires": "5.2"
+          }
+        },
+        {
+          "group": "info.picocli",
+          "module": "picocli",
+          "version": {
+            "requires": "4.3.2"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.2.12"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-aop",
+          "version": {
+            "requires": "3.2.9.RELEASE"
+          }
+        },
+        {
+          "group": "net.sf.trove4j",
+          "module": "trove4j",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "nz.ac.waikato.cms.weka",
+          "module": "weka-dev",
+          "version": {
+            "requires": "3.9.4"
+          }
+        },
+        {
+          "group": "org.tukaani",
+          "module": "xz",
+          "version": {
+            "requires": "1.8"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13"
+          }
+        },
+        {
+          "group": "org.jmockit",
+          "module": "jmockit",
+          "version": {
+            "requires": "1.49"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "2.19.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.scijava",
+          "module": "batch-processor",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "minimaven",
+          "version": {
+            "requires": "2.2.2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "native-lib-loader",
+          "version": {
+            "requires": "2.3.4"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "parsington",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-cache",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-common",
+          "version": {
+            "requires": "2.85.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-config",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-grab",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-io-http",
+          "version": {
+            "requires": "0.2.1"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-java3d",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-listeners",
+          "version": {
+            "requires": "1.0.0-beta-3"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-log-slf4j",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-optional",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-plugins-commands",
+          "version": {
+            "requires": "0.2.3"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-plugins-io-table",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-plugins-platforms",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-plugins-text-markdown",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-plugins-text-plain",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-search",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-table",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-ui-awt",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scijava-ui-swing",
+          "version": {
+            "requires": "0.13.2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "script-editor",
+          "version": {
+            "requires": "0.5.6"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-beanshell",
+          "version": {
+            "requires": "0.3.4"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-clojure",
+          "version": {
+            "requires": "0.1.6"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-groovy",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-java",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-javascript",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-jruby",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-jython",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-kotlin",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-matlab",
+          "version": {
+            "requires": "0.5.2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-renjin",
+          "version": {
+            "requires": "0.2.3"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "scripting-scala",
+          "version": {
+            "requires": "0.2.2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "swing-checkbox-tree",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "ui-behaviour",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "junit-benchmarks",
+          "version": {
+            "requires": "0.7.4-scijava"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "ij",
+          "version": {
+            "requires": "1.53d"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "ij1-patcher",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-common",
+          "version": {
+            "requires": "0.34.0"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-deprecated",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-launcher",
+          "version": {
+            "requires": "6.0.1"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-legacy",
+          "version": {
+            "requires": "0.37.4"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-matlab",
+          "version": {
+            "requires": "0.7.4"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-mesh",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-mesh-io",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-notebook",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-omero",
+          "version": {
+            "requires": "1.0.0-5.5"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-omero-legacy",
+          "version": {
+            "requires": "1.0.0-5.5"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-opencv",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-ops",
+          "version": {
+            "requires": "0.45.5"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-plugins-batch",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-plugins-commands",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-plugins-tools",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-plugins-uploader-ssh",
+          "version": {
+            "requires": "0.3.2"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-plugins-uploader-webdav",
+          "version": {
+            "requires": "0.3.2"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-scripting",
+          "version": {
+            "requires": "0.8.2"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-server",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-tensorflow",
+          "version": {
+            "requires": "1.1.5"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-ui-awt",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-ui-swing",
+          "version": {
+            "requires": "0.23.2"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "imagej-updater",
+          "version": {
+            "requires": "0.10.5"
+          }
+        },
+        {
+          "group": "net.imagej",
+          "module": "op-finder",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2",
+          "version": {
+            "requires": "5.11.1"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-algorithm",
+          "version": {
+            "requires": "0.11.2"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-algorithm-fft",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-algorithm-gpl",
+          "version": {
+            "requires": "0.2.5"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-cache",
+          "version": {
+            "requires": "1.0.0-beta-15"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-ij",
+          "version": {
+            "requires": "2.0.0-beta-46"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-realtransform",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-roi",
+          "version": {
+            "requires": "0.10.4"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-script",
+          "version": {
+            "requires": "0.2.4"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-ui",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-unsafe",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "io.scif",
+          "module": "scifio",
+          "version": {
+            "requires": "0.41.1"
+          }
+        },
+        {
+          "group": "io.scif",
+          "module": "scifio-bf-compat",
+          "version": {
+            "requires": "4.1.0"
+          }
+        },
+        {
+          "group": "io.scif",
+          "module": "scifio-cli",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "io.scif",
+          "module": "scifio-hdf5",
+          "version": {
+            "requires": "0.2.1"
+          }
+        },
+        {
+          "group": "io.scif",
+          "module": "scifio-jai-imageio",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "io.scif",
+          "module": "scifio-lifesci",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "io.scif",
+          "module": "scifio-ome-xml",
+          "version": {
+            "requires": "0.16.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "fiji",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "AnalyzeSkeleton_",
+          "version": {
+            "requires": "3.4.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Anisotropic_Diffusion_2D",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Archipelago_Plugins",
+          "version": {
+            "requires": "0.5.4"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Arrow_",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Auto_Local_Threshold",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Auto_Threshold",
+          "version": {
+            "requires": "1.17.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "BalloonSegmentation_",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Bug_Submitter",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "CPU_Meter",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Calculator_Plus",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Cell_Counter",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Colocalisation_Analysis",
+          "version": {
+            "requires": "3.0.5"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Color_Histogram",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Color_Inspector_3D",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Colour_Deconvolution",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "CorrectBleach_",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Correct_3D_Drift",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Descriptor_based_registration",
+          "version": {
+            "requires": "2.1.7"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Dichromacy_",
+          "version": {
+            "requires": "2.1.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Directionality_",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "FS_Align_TrakEM2",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Feature_Detection",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Fiji_Archipelago",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Fiji_Developer",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Fiji_Package_Maker",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Fiji_Plugins",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "FilamentDetector",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "FlowJ_",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Graph_Cut",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Gray_Morphology",
+          "version": {
+            "requires": "2.3.5"
+          }
+        },
+        {
+          "group": "org.janelia",
+          "module": "H5J_Loader_Plugin",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "HDF5_Vibez",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Helmholtz_Analysis",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "IJ_Robot",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "IO_",
+          "version": {
+            "requires": "4.1.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Image_5D",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Image_Expression_Parser",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Interactive_3D_Surface_Plot",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "IsoData_Classifier",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Kappa",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Kuwahara_Filter",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "KymographBuilder",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "LSM_Reader",
+          "version": {
+            "requires": "4.1.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "LSM_Toolbox",
+          "version": {
+            "requires": "4.1.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Lasso_and_Blow_Tool",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Linear_Kuwahara",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "LocalThickness_",
+          "version": {
+            "requires": "4.0.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "MTrack2_",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "M_I_P",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Manual_Tracking",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Multi_Kymograph",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "OMEVisual",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "PIV_analyser",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "QuickPALM_",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "RATS_",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Reconstruct_Reader",
+          "version": {
+            "requires": "2.0.4"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "SPIM_Opener",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "SPIM_Registration",
+          "version": {
+            "requires": "5.0.21"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Samples_",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Series_Labeler",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Siox_Segmentation",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Skeletonize3D_",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "SplineDeformationGenerator_",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Stack_Manipulation",
+          "version": {
+            "requires": "2.1.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Statistical_Region_Merging",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Stitching_",
+          "version": {
+            "requires": "3.1.6"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Sync_Win",
+          "version": {
+            "requires": "1.7-fiji4"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Thread_Killer",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Time_Lapse",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Time_Stamper",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "ToAST_",
+          "version": {
+            "requires": "25.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "TopoJ_",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "TrackMate_",
+          "version": {
+            "requires": "6.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Trainable_Segmentation",
+          "version": {
+            "requires": "3.2.34"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "TrakEM2_Archipelago",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "VIB-lib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "VIB_",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Vaa3d_Reader",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Vaa3d_Writer",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Video_Editing",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "View5D_",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Volume_Calculator",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "Volume_Viewer",
+          "version": {
+            "requires": "2.01.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "bUnwarpJ_",
+          "version": {
+            "requires": "2.6.13"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "bij",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "blockmatching_",
+          "version": {
+            "requires": "2.1.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "fiji-lib",
+          "version": {
+            "requires": "2.1.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "legacy-imglib1",
+          "version": {
+            "requires": "1.1.9"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "level_sets",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "pal-optimization",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "panorama_",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "register_virtual_stack_slices",
+          "version": {
+            "requires": "3.0.5"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "registration_3d",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "weave_jy2java",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "bigdataviewer-core",
+          "version": {
+            "requires": "9.0.6"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "bigdataviewer-server",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "bigdataviewer-vistools",
+          "version": {
+            "requires": "1.0.0-beta-21"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "bigdataviewer_fiji",
+          "version": {
+            "requires": "6.2.0"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "spim_data",
+          "version": {
+            "requires": "2.2.4"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "T2-NIT",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "T2-TreelineGraph",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "TrakEM2_",
+          "version": {
+            "requires": "1.3.4"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "VectorString",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "trakem2-transform",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "net.imglib2",
+          "module": "imglib2-label-multisets",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "org.janelia.saalfeldlab",
+          "module": "n5",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "org.janelia.saalfeldlab",
+          "module": "n5-aws-s3",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "org.janelia.saalfeldlab",
+          "module": "n5-blosc",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.janelia.saalfeldlab",
+          "module": "n5-google-cloud",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.janelia.saalfeldlab",
+          "module": "n5-hdf5",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.janelia.saalfeldlab",
+          "module": "n5-viewer_fiji",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.janelia.saalfeldlab",
+          "module": "n5-zarr",
+          "version": {
+            "requires": "0.0.4"
+          }
+        },
+        {
+          "group": "org.bonej",
+          "module": "bonej-plugins",
+          "version": {
+            "requires": "7.0.7"
+          }
+        },
+        {
+          "group": "org.bonej",
+          "module": "bonej-ops",
+          "version": {
+            "requires": "7.0.7"
+          }
+        },
+        {
+          "group": "org.bonej",
+          "module": "bonej-legacy-plugins_",
+          "version": {
+            "requires": "7.0.7"
+          }
+        },
+        {
+          "group": "org.bonej",
+          "module": "bonej-legacy-util_",
+          "version": {
+            "requires": "7.0.7"
+          }
+        },
+        {
+          "group": "org.bonej",
+          "module": "bonej-utilities",
+          "version": {
+            "requires": "7.0.7"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "metakit",
+          "version": {
+            "requires": "5.3.2"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "ome-common",
+          "version": {
+            "requires": "6.0.4"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "ome-poi",
+          "version": {
+            "requires": "5.3.3"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "ome-xml",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "ome",
+          "module": "jxrlib-all",
+          "version": {
+            "requires": "0.2.4"
+          }
+        },
+        {
+          "group": "ome",
+          "module": "formats-api",
+          "version": {
+            "requires": "6.5.1"
+          }
+        },
+        {
+          "group": "ome",
+          "module": "formats-bsd",
+          "version": {
+            "requires": "6.5.1"
+          }
+        },
+        {
+          "group": "ome",
+          "module": "formats-gpl",
+          "version": {
+            "requires": "6.5.1"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "omero-blitz",
+          "version": {
+            "requires": "5.5.6"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "omero-common",
+          "version": {
+            "requires": "5.5.5"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "omero-dsl-plugin",
+          "version": {
+            "requires": "5.5.0"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "omero-gateway",
+          "version": {
+            "requires": "5.6.3"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "omero-model",
+          "version": {
+            "requires": "5.6.0"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "omero-renderer",
+          "version": {
+            "requires": "5.5.5"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "omero-romio",
+          "version": {
+            "requires": "5.6.0"
+          }
+        },
+        {
+          "group": "org.openmicroscopy",
+          "module": "omero-server",
+          "version": {
+            "requires": "5.5.6"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-ant",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-astbuilder",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bsf",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-cli-commons",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-cli-picocli",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-console",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-datetime",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-docgenerator",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-groovydoc",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-groovysh",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-jaxb",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-jmx",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-json",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-macro",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-nio",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-servlet",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-sql",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-test",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-test-junit5",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-testng",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-xml",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-yaml",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.apache.maven.shared",
+          "module": "maven-artifact-transfer",
+          "version": {
+            "requires": "0.12.0"
+          }
+        },
+        {
+          "group": "org.apache.maven.shared",
+          "module": "maven-common-artifact-filters",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "org.apache.maven.plugin-tools",
+          "module": "maven-plugin-tools-api",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "org.sonatype.sisu",
+          "module": "sisu-inject-bean",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "org.sonatype.sisu",
+          "module": "sisu-inject-plexus",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "org.apache.poi",
+          "module": "poi",
+          "version": {
+            "requires": "3.17"
+          }
+        },
+        {
+          "group": "org.apache.spark",
+          "module": "spark-core_2.11",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.12"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore",
+          "version": {
+            "requires": "4.4.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-anim",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-awt-util",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-bridge",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-codec",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-costants",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-css",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-dom",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-ext",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-extentions",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-gui-util",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-gvt",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-i18n",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-parser",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-rasterizer",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-rasterizer-ext",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-script",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-slideshow",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-squiggle",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-squiggle-ext",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-svg-dom",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-svggen",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-svgpp",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-swing",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-transcoder",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-ttf2svg",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-util",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "batik-xml",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "org.apache.xmlgraphics",
+          "module": "xmlgraphics-commons",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "commons-beanutils",
+          "module": "commons-beanutils",
+          "version": {
+            "requires": "1.9.4"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.14"
+          }
+        },
+        {
+          "group": "commons-collections",
+          "module": "commons-collections",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.20"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.7"
+          }
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.10"
+          }
+        },
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.8"
+          }
+        },
+        {
+          "group": "org.eclipse.collections",
+          "module": "eclipse-collections",
+          "version": {
+            "requires": "10.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.collections",
+          "module": "eclipse-collections-api",
+          "version": {
+            "requires": "10.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.collections",
+          "module": "eclipse-collections-forkjoin",
+          "version": {
+            "requires": "10.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.collections",
+          "module": "eclipse-collections-testutils",
+          "version": {
+            "requires": "10.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.cocoa.macosx",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.cocoa.macosx.x86_64",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.aix.ppc",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.aix.ppc64",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.hpux.ia64",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.linux.ppc",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.linux.ppc64",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.linux.s390",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.linux.s390x",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.linux.x86",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.linux.x86_64",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.solaris.sparc",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.gtk.solaris.x86",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.win32.win32.x86",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.swt",
+          "module": "org.eclipse.swt.win32.win32.x86_64",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-annotations",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-client",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-continuation",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-deploy",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-http",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-http-spi",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-io",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-jaas",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-jaspi",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-jmx",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-jndi",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-nosql",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-plus",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-proxy",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-rewrite",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-security",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-server",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-servlet",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-servlets",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-spring",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-start",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-util",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-util-ajax",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-webapp",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-xml",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.jgrapht",
+          "module": "jgrapht-core",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jgrapht",
+          "module": "jgrapht-demo",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jgrapht",
+          "module": "jgrapht-ext",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jgrapht",
+          "module": "jgrapht-guava",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jgrapht",
+          "module": "jgrapht-io",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jgrapht",
+          "module": "jgrapht-opt",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jogamp.gluegen",
+          "module": "gluegen-rt-main",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "org.jogamp.joal",
+          "module": "joal-main",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "org.jogamp.jocl",
+          "module": "jocl-main",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "org.jogamp.jogl",
+          "module": "jogl-all-main",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-embeddable",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-daemon-embeddable",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-script-runtime",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-script-util",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-script-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-compiler-embeddable",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-jvm",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-core",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "com.miglayout",
+          "module": "miglayout-core",
+          "version": {
+            "requires": "5.2"
+          }
+        },
+        {
+          "group": "com.miglayout",
+          "module": "miglayout-swing",
+          "version": {
+            "requires": "5.2"
+          }
+        },
+        {
+          "group": "com.miglayout",
+          "module": "miglayout-swt",
+          "version": {
+            "requires": "5.2"
+          }
+        },
+        {
+          "group": "com.fifesoft",
+          "module": "rsyntaxtextarea",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "com.fifesoft",
+          "module": "autocomplete",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "com.fifesoft",
+          "module": "languagesupport",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-ext",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-jcl",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-jdk14",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-nop",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-simple",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.26"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml-engine",
+          "version": {
+            "requires": "2.1"
+          }
+        },
+        {
+          "group": "org.tensorflow",
+          "module": "tensorflow",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.tensorflow",
+          "module": "libtensorflow",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.tensorflow",
+          "module": "libtensorflow_jni",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.tensorflow",
+          "module": "libtensorflow_jni_gpu",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.tensorflow",
+          "module": "proto",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.6.2"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-engine",
+          "version": {
+            "requires": "5.6.2"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-migrationsupport",
+          "version": {
+            "requires": "5.6.2"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-params",
+          "version": {
+            "requires": "5.6.2"
+          }
+        },
+        {
+          "group": "org.junit.vintage",
+          "module": "junit-vintage-engine",
+          "version": {
+            "requires": "5.6.2"
+          }
+        },
+        {
+          "group": "org.openjdk.jmh",
+          "module": "jmh-core",
+          "version": {
+            "requires": "1.23"
+          }
+        },
+        {
+          "group": "org.openjdk.jmh",
+          "module": "jmh-generator-annprocess",
+          "version": {
+            "requires": "1.23"
+          }
+        },
+        {
+          "group": "org.morphonets",
+          "module": "SNT",
+          "version": {
+            "requires": "3.1.112"
+          }
+        },
+        {
+          "group": "jitk",
+          "module": "jitk-tps",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "bigwarp_fiji",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "mpicbg",
+          "module": "mpicbg",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "trakem2_tps",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "sc.fiji",
+          "module": "z_spacing",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "fr.inra.ijpb",
+          "module": "MorphoLibJ_",
+          "version": {
+            "requires": "1.4.2.1"
+          }
+        },
+        {
+          "group": "net.preibisch",
+          "module": "BigStitcher",
+          "version": {
+            "requires": "0.5.8"
+          }
+        },
+        {
+          "group": "net.preibisch",
+          "module": "multiview-reconstruction",
+          "version": {
+            "requires": "0.7.2"
+          }
+        },
+        {
+          "group": "net.preibisch",
+          "module": "multiview-simulation",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "net.clearcontrol",
+          "module": "coremem",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "net.clearvolume",
+          "module": "cleargl",
+          "version": {
+            "requires": "2.2.10"
+          }
+        },
+        {
+          "group": "graphics.scenery",
+          "module": "scenery",
+          "version": {
+            "requires": "0.7.0-beta-7"
+          }
+        },
+        {
+          "group": "sc.iview",
+          "module": "sciview",
+          "version": {
+            "requires": "0.2.0-beta-5"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-s3",
+          "version": {
+            "requires": "1.11.796"
+          }
+        },
+        {
+          "group": "org.lasersonlab",
+          "module": "jblosc",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "javax.enterprise",
+          "module": "cdi-api",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "cglib",
+          "module": "cglib",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "21.0"
+          }
+        },
+        {
+          "group": "hsqldb",
+          "module": "hsqldb",
+          "version": {
+            "requires": "1.8.0.10"
+          }
+        },
+        {
+          "group": "com.itextpdf",
+          "module": "itextpdf",
+          "version": {
+            "requires": "5.5.13.1"
+          }
+        },
+        {
+          "group": "org.apache.jackrabbit",
+          "module": "jackrabbit-webdav",
+          "version": {
+            "requires": "2.21.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.sun.media",
+          "module": "jai-codec",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "javax.media",
+          "module": "jai-core",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "gov.nist.math",
+          "module": "jama",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "j3dcore",
+          "version": {
+            "requires": "1.6.0-scijava-2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "j3dutils",
+          "version": {
+            "requires": "1.6.0-scijava-2"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "vecmath",
+          "version": {
+            "requires": "1.6.0-scijava-2"
+          }
+        },
+        {
+          "group": "org.javassist",
+          "module": "javassist",
+          "version": {
+            "requires": "3.27.0-GA"
+          }
+        },
+        {
+          "group": "org.jdom",
+          "module": "jdom2",
+          "version": {
+            "requires": "2.0.6"
+          }
+        },
+        {
+          "group": "org.scijava",
+          "module": "jep",
+          "version": {
+            "requires": "2.4.2"
+          }
+        },
+        {
+          "group": "org.jfree",
+          "module": "jfreechart",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jfree",
+          "module": "jfreesvg",
+          "version": {
+            "requires": "3.4"
+          }
+        },
+        {
+          "group": "com.github.vlsi.mxgraph",
+          "module": "jgraphx",
+          "version": {
+            "requires": "4.1.0"
+          }
+        },
+        {
+          "group": "cisd",
+          "module": "jhdf5",
+          "version": {
+            "requires": "14.12.6"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "4.5.2"
+          }
+        },
+        {
+          "group": "joda-time",
+          "module": "joda-time",
+          "version": {
+            "requires": "2.10.6"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "org.jpedal",
+          "module": "jpedalSTD",
+          "version": {
+            "requires": "2.80b11"
+          }
+        },
+        {
+          "group": "com.jcraft",
+          "module": "jsch",
+          "version": {
+            "requires": "0.1.55"
+          }
+        },
+        {
+          "group": "org.python",
+          "module": "jython-slim",
+          "version": {
+            "requires": "2.7.2"
+          }
+        },
+        {
+          "group": "com.jcraft",
+          "module": "jzlib",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "org.lz4",
+          "module": "lz4-java",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.mapdb",
+          "module": "mapdb",
+          "version": {
+            "requires": "3.0.8"
+          }
+        },
+        {
+          "group": "edu.mines",
+          "module": "mines-jtk",
+          "version": {
+            "requires": "20151125"
+          }
+        },
+        {
+          "group": "org.ojalgo",
+          "module": "ojalgo",
+          "version": {
+            "requires": "45.1.1"
+          }
+        },
+        {
+          "group": "com.opencsv",
+          "module": "opencsv",
+          "version": {
+            "requires": "5.2"
+          }
+        },
+        {
+          "group": "info.picocli",
+          "module": "picocli",
+          "version": {
+            "requires": "4.3.2"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.2.12"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-aop",
+          "version": {
+            "requires": "3.2.9.RELEASE"
+          }
+        },
+        {
+          "group": "net.sf.trove4j",
+          "module": "trove4j",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "nz.ac.waikato.cms.weka",
+          "module": "weka-dev",
+          "version": {
+            "requires": "3.9.4"
+          }
+        },
+        {
+          "group": "org.tukaani",
+          "module": "xz",
+          "version": {
+            "requires": "1.8"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13"
+          }
+        },
+        {
+          "group": "org.jmockit",
+          "module": "jmockit",
+          "version": {
+            "requires": "1.49"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "2.19.0"
+          }
+        }
+      ]
+    }
+  ]
+}
