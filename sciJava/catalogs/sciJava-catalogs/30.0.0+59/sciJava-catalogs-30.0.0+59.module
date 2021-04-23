@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "sciJava.catalogs",
+    "module": "sciJava-catalogs",
+    "version": "30.0.0+59",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "sciJava-catalogs-30.0.0+59.jar",
+          "url": "sciJava-catalogs-30.0.0+59.jar",
+          "size": 28258,
+          "sha512": "61a094b58264adc1d78392eb137fbd1f1f84d8041882aef6c314f877b302df38f7ca7d01444d125ab94363804540958f2c5d8ce32c91e2520a35e6cf410a5793",
+          "sha256": "4d5303108eaeffcbebcc4f1b8c56a404d83cdb48c9ee5fa085074c2889bb2cca",
+          "sha1": "0e4c2949410b781c040e25f8ace860b097a43443",
+          "md5": "2575d984978d69aa51df2c8483ba779e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.4.30"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sciJava-catalogs-30.0.0+59.jar",
+          "url": "sciJava-catalogs-30.0.0+59.jar",
+          "size": 28258,
+          "sha512": "61a094b58264adc1d78392eb137fbd1f1f84d8041882aef6c314f877b302df38f7ca7d01444d125ab94363804540958f2c5d8ce32c91e2520a35e6cf410a5793",
+          "sha256": "4d5303108eaeffcbebcc4f1b8c56a404d83cdb48c9ee5fa085074c2889bb2cca",
+          "sha1": "0e4c2949410b781c040e25f8ace860b097a43443",
+          "md5": "2575d984978d69aa51df2c8483ba779e"
+        }
+      ]
+    }
+  ]
+}
