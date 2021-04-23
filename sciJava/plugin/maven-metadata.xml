@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>sciJava-platform</groupId>
+  <groupId>sciJava</groupId>
   <artifactId>plugin</artifactId>
   <versioning>
-    <latest>30.0.0+8</latest>
-    <release>30.0.0+8</release>
+    <latest>30.0.0+9</latest>
+    <release>30.0.0+9</release>
     <versions>
-      <version>unspecified</version>
       <version>30.0.0+8</version>
+      <version>30.0.0+9</version>
     </versions>
-    <lastUpdated>20210423111132</lastUpdated>
+    <lastUpdated>20210423111448</lastUpdated>
   </versioning>
 </metadata>

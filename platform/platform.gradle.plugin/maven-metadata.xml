@@ -3,11 +3,13 @@
   <groupId>platform</groupId>
   <artifactId>platform.gradle.plugin</artifactId>
   <versioning>
-    <latest>unspecified</latest>
-    <release>unspecified</release>
+    <latest>30.0.0+9</latest>
+    <release>30.0.0+9</release>
     <versions>
       <version>unspecified</version>
+      <version>30.0.0+8</version>
+      <version>30.0.0+9</version>
     </versions>
-    <lastUpdated>20210423110333</lastUpdated>
+    <lastUpdated>20210423111448</lastUpdated>
   </versioning>
 </metadata>
