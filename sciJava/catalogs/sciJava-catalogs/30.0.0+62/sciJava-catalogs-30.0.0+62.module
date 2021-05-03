@@ -3,7 +3,7 @@
   "component": {
     "group": "sciJava.catalogs",
     "module": "sciJava-catalogs",
-    "version": "30.0.0+61",
+    "version": "30.0.0+62",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -27,13 +27,13 @@
       },
       "files": [
         {
-          "name": "sciJava-catalogs-30.0.0+61.jar",
-          "url": "sciJava-catalogs-30.0.0+61.jar",
+          "name": "sciJava-catalogs-30.0.0+62.jar",
+          "url": "sciJava-catalogs-30.0.0+62.jar",
           "size": 28258,
-          "sha512": "1d38d26b2900b6815c97c41a68f2283c3fe5e61c9351da54d3ecbc3e6d7e23a1fffdea861f1ecbfe907b1a9ab8ce9c69f3c43f05acc9e7bb64129e66cc6d6e76",
-          "sha256": "3591ec9e25f90c78d172c0cbb7d29f73698ffd0e012f92a3b0d2d243777eeeab",
-          "sha1": "e9e77c4e9b7ae8aa8d543f717ad0276286cdd937",
-          "md5": "8983dc9d21f14257c9ea1e28466dde43"
+          "sha512": "d117f284c3b5d34e861418aff96d5e09dd208bfb9568c3bf71becde9f39dd38ff4bebbabd148d95077bb96a963ac13502c06fe5ea255786c9e8937f747cd771f",
+          "sha256": "3dfbe65f556fd3d0fd6fda05bfd2ccccc3fa6e2f2406ca7ef4e321372d22e054",
+          "sha1": "1b22a7063b91040109a85c15205ed7bb73085389",
+          "md5": "63e2810c5550cf72fa3247766afdd4bf"
         }
       ]
     },
@@ -70,13 +70,13 @@
       ],
       "files": [
         {
-          "name": "sciJava-catalogs-30.0.0+61.jar",
-          "url": "sciJava-catalogs-30.0.0+61.jar",
+          "name": "sciJava-catalogs-30.0.0+62.jar",
+          "url": "sciJava-catalogs-30.0.0+62.jar",
           "size": 28258,
-          "sha512": "1d38d26b2900b6815c97c41a68f2283c3fe5e61c9351da54d3ecbc3e6d7e23a1fffdea861f1ecbfe907b1a9ab8ce9c69f3c43f05acc9e7bb64129e66cc6d6e76",
-          "sha256": "3591ec9e25f90c78d172c0cbb7d29f73698ffd0e012f92a3b0d2d243777eeeab",
-          "sha1": "e9e77c4e9b7ae8aa8d543f717ad0276286cdd937",
-          "md5": "8983dc9d21f14257c9ea1e28466dde43"
+          "sha512": "d117f284c3b5d34e861418aff96d5e09dd208bfb9568c3bf71becde9f39dd38ff4bebbabd148d95077bb96a963ac13502c06fe5ea255786c9e8937f747cd771f",
+          "sha256": "3dfbe65f556fd3d0fd6fda05bfd2ccccc3fa6e2f2406ca7ef4e321372d22e054",
+          "sha1": "1b22a7063b91040109a85c15205ed7bb73085389",
+          "md5": "63e2810c5550cf72fa3247766afdd4bf"
         }
       ]
     }
