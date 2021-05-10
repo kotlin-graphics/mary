@@ -66,6 +66,29 @@
           "version": {
             "requires": "1.4.30"
           }
+        },
+        {
+          "group": "org.http4k",
+          "module": "http4k-bom",
+          "version": {
+            "requires": "4.8.0.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.http4k",
+          "module": "http4k-core"
+        },
+        {
+          "group": "org.http4k",
+          "module": "http4k-server-netty"
+        },
+        {
+          "group": "org.http4k",
+          "module": "http4k-client-apache"
         }
       ],
       "files": [
