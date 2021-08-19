@@ -16,7 +16,7 @@
       <dependency>
         <groupId>org.jetbrains.kotlin.jvm</groupId>
         <artifactId>org.jetbrains.kotlin.jvm.gradle.plugin</artifactId>
-        <version>1.4.31</version>
+        <version>1.5.21</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.dokka</groupId>
@@ -26,7 +26,7 @@
       <dependency>
         <groupId>com.github.johnrengelman.shadow</groupId>
         <artifactId>com.github.johnrengelman.shadow.gradle.plugin</artifactId>
-        <version>6.1.0</version>
+        <version>7.0.0</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
