@@ -9,6 +9,17 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>kotlin.graphics.platform</groupId>
   <artifactId>source</artifactId>
-  <version>0.2.8+46</version>
+  <version>0.2.9+47</version>
   <packaging>pom</packaging>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.lwjgl</groupId>
+        <artifactId>lwjgl-bom</artifactId>
+        <version>3.2.3</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>
