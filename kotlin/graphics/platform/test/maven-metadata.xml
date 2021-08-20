@@ -3,44 +3,11 @@
   <groupId>kotlin.graphics.platform</groupId>
   <artifactId>test</artifactId>
   <versioning>
-    <latest>0.2.8+46</latest>
-    <release>0.2.8+46</release>
+    <latest>0.2.9</latest>
+    <release>0.2.9</release>
     <versions>
-      <version>v0.1.9-7-5d87fb7</version>
-      <version>v0.1.9-8-5572ae5</version>
-      <version>v0.1.9-10-6325730</version>
-      <version>v0.1.9-13-86ff482</version>
-      <version>0.2.8</version>
-      <version>v0.1.9-14-d94197b</version>
-      <version>v0.1.9-15-0a10bfd</version>
-      <version>v0.1.9-17-bdeee57</version>
-      <version>v0.1.9-18-f5c70aa</version>
-      <version>v0.1.9-19-2e0645a</version>
-      <version>v0.1.9-20-9378bf7</version>
-      <version>v0.1.9-21-d49abd4</version>
-      <version>0.2.8+24</version>
-      <version>0.2.8+25</version>
-      <version>0.2.8+26</version>
-      <version>0.2.8+27</version>
-      <version>0.2.8+28</version>
-      <version>0.2.8+29</version>
-      <version>0.2.8+30</version>
-      <version>0.2.8+31</version>
-      <version>0.2.8+32</version>
-      <version>0.2.8+33</version>
-      <version>0.2.8+34</version>
-      <version>0.2.8+35</version>
-      <version>0.2.8+37</version>
-      <version>0.2.8+38</version>
-      <version>0.2.8+39</version>
-      <version>0.2.8+40</version>
-      <version>0.2.8+41</version>
-      <version>0.2.8+42</version>
-      <version>0.2.8+43</version>
-      <version>0.2.8+44</version>
-      <version>0.2.8+45</version>
-      <version>0.2.8+46</version>
+      <version>0.2.9</version>
     </versions>
-    <lastUpdated>20210330141809</lastUpdated>
+    <lastUpdated>20210820123219</lastUpdated>
   </versioning>
 </metadata>
