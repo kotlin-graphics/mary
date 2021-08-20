@@ -3,7 +3,7 @@
   "component": {
     "group": "kotlin.graphics.platform",
     "module": "plugin",
-    "version": "0.2.8+46",
+    "version": "0.2.9+47",
     "attributes": {
       "org.gradle.status": "release"
     }
