@@ -30,7 +30,7 @@
         },
         {
           "group": "org.jetbrains.dokka",
-          "module": "kotlin-as-java-plugin",
+          "module": "dokka-gradle-plugin",
           "version": {
             "requires": "1.5.0"
           }
@@ -40,6 +40,13 @@
           "module": "com.github.johnrengelman.shadow.gradle.plugin",
           "version": {
             "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "elect86.magik",
+          "module": "elect86.magik.gradle.plugin",
+          "version": {
+            "requires": "0.1.2"
           }
         }
       ]
@@ -60,7 +67,7 @@
         },
         {
           "group": "org.jetbrains.dokka",
-          "module": "kotlin-as-java-plugin",
+          "module": "dokka-gradle-plugin",
           "version": {
             "requires": "1.5.0"
           }
@@ -70,6 +77,13 @@
           "module": "com.github.johnrengelman.shadow.gradle.plugin",
           "version": {
             "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "elect86.magik",
+          "module": "elect86.magik.gradle.plugin",
+          "version": {
+            "requires": "0.1.2"
           }
         }
       ]
