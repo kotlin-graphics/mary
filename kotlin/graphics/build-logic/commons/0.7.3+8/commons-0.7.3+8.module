@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics.build-logic",
+    "module": "commons",
+    "version": "0.7.3+8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "commons-0.7.3+8.jar",
+          "url": "commons-0.7.3+8.jar",
+          "size": 390119,
+          "sha512": "2939d7fe9fee89ad0f1ff067dc18b7d182cd6c181f58dcc34b99d3f259d646a4f53bcae83d2db69c4c137d5459a0871b6b1e26779b489fe4d1f4bf81646c6d0a",
+          "sha256": "8aaa5c67a5ce8b9610210d32513b530a8e4c2e5ced3f530603ab443dcd4ef673",
+          "sha1": "a0bcbe820eda5bf94dae64aa46df928166504d08",
+          "md5": "297e0703f27af823b59d02d485f89363"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics.platform",
+          "module": "plugin",
+          "version": {
+            "requires": "0.3.3+15"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin.jvm",
+          "module": "org.jetbrains.kotlin.jvm.gradle.plugin"
+        },
+        {
+          "group": "com.github.johnrengelman.shadow",
+          "module": "com.github.johnrengelman.shadow.gradle.plugin"
+        },
+        {
+          "group": "elect86.magik",
+          "module": "elect86.magik.gradle.plugin"
+        }
+      ],
+      "files": [
+        {
+          "name": "commons-0.7.3+8.jar",
+          "url": "commons-0.7.3+8.jar",
+          "size": 390119,
+          "sha512": "2939d7fe9fee89ad0f1ff067dc18b7d182cd6c181f58dcc34b99d3f259d646a4f53bcae83d2db69c4c137d5459a0871b6b1e26779b489fe4d1f4bf81646c6d0a",
+          "sha256": "8aaa5c67a5ce8b9610210d32513b530a8e4c2e5ced3f530603ab443dcd4ef673",
+          "sha1": "a0bcbe820eda5bf94dae64aa46df928166504d08",
+          "md5": "297e0703f27af823b59d02d485f89363"
+        }
+      ]
+    }
+  ]
+}
