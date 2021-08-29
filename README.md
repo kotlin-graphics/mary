@@ -35,3 +35,7 @@ repositories {
     maven("https://raw.githubusercontent.com/kotlin-graphics/mary/master")
 }
 ```
+
+### Maintenance status
+
+All except ovr and bullet are actively maintained, some more some less. 
