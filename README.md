@@ -10,7 +10,9 @@ precious developing time, which, in my case, is quite scarce.
 - #### Jitpack
 
 On the other side, Jitpack is, unfortunately, broken by design:
-- they rewrite the POM, which sometimes it creates [defective artifacts](https://github.com/jitpack/jitpack.io/issues/4476)
+- they rewrite the POM, which sometimes it creates [defective artifacts](https://github.com/jitpack/jitpack.io/issues/4476).
+This happens especially with variant-aware and platform-dependent projects, two big features quite hard
+to give up
 - if you have a multi-module build the produce a non-sense catch-all artifact and provide wrong instructions
 - you cannot easily use the coordinates you use for normal publishing
 - when first requesting a version, it first has to be built, this can need significant time and lead to timeouts,
@@ -23,48 +25,13 @@ On the other side, Jitpack is, unfortunately, broken by design:
 
 Ps: the last two should be also valid for this repository solution, though
 
-However, it's still perfectly fine using jitpack on consumer sides, in this case just:
+### Packages
 
-- Add it in your root build.gradle at the end of repositories:
-
-      allprojects {
-          repositories {
-              ...
-              maven("https://jitpack.io") // should be the last entry
-          }
-      }
-
-- Add the dependency
-
-      dependencies {
-          implementation("kotlin.graphics:unsigned:..")
-          implementation("kotlin.graphics:glm:..")
-      }
-
-### Plugins
-
-In order to use kotlin-graphics plugins, (if you want, you shouldn't need it), in Gradle KTS you need to include this repo by adding the following to your `settings.gradle.kts`:
-
-```kotlin
-pluginManagement {
-    repositories {
-        gradlePluginPortal()
-        maven("https://raw.githubusercontent.com/kotlin-graphics/mary/master")
-    }
-}
-```
-
-### Snapshots
-
-Same for the snapshots of the different projects, they are also published on this repository.
-So if you want to use it, just add to your `build.gradle.kts`
+Same for the releases/snapshots of the different projects, they are also published on this repository,
+just add to your `build.gradle.kts`
 
 ```kotlin
 repositories {
     maven("https://raw.githubusercontent.com/kotlin-graphics/mary/master")
 }
 ```
-
-### Releases
-
-Releases, which are less frequent, would be instead published on [scijava](https://maven.scijava.org/) (there is none yet).
