@@ -31,7 +31,7 @@
       <dependency>
         <groupId>elect86.magik</groupId>
         <artifactId>elect86.magik.gradle.plugin</artifactId>
-        <version>0.1.5</version>
+        <version>0.1.7</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
