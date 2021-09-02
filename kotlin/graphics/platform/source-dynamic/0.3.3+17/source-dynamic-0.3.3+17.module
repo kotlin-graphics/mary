@@ -29,11 +29,11 @@
         {
           "name": "source-dynamic-0.3.3+17.jar",
           "url": "source-dynamic-0.3.3+17.jar",
-          "size": 14116,
-          "sha512": "afdba96145f704a5315824da417f9739ac399737f81f809b2cfeccd116b6f5ed53c31374f37a2599df33f3696344d10f107d24b7fbe7953d7a0ca93c58fe087f",
-          "sha256": "1b40ee27ceb038144c0b7d522885f6165b91af3f81763f7849989e9deee25743",
-          "sha1": "3b34678660e1b952c07704f3cd2a633e78a13c96",
-          "md5": "5898724632d2c0b97cee2310891aaf43"
+          "size": 14250,
+          "sha512": "f643d183a6aad8ec5e1a06bd1c02ba8e3790fc2cbb3ab6ae24e2aaa9ab8ad139e78866894b1dac3ad36e68297457d768d59b653460c2e29dc3bc0cea674a335a",
+          "sha256": "e6a55c9ec7b8c3af872aa56e12f3636098b028bafb8d790172eb48c97c52d161",
+          "sha1": "83e655ef11713a87216c2f4563af01576e348c02",
+          "md5": "a4e9826fd7931d6cd1e5dc079c9b87c1"
         }
       ]
     },
@@ -52,11 +52,11 @@
         {
           "name": "source-dynamic-0.3.3+17.jar",
           "url": "source-dynamic-0.3.3+17.jar",
-          "size": 14116,
-          "sha512": "afdba96145f704a5315824da417f9739ac399737f81f809b2cfeccd116b6f5ed53c31374f37a2599df33f3696344d10f107d24b7fbe7953d7a0ca93c58fe087f",
-          "sha256": "1b40ee27ceb038144c0b7d522885f6165b91af3f81763f7849989e9deee25743",
-          "sha1": "3b34678660e1b952c07704f3cd2a633e78a13c96",
-          "md5": "5898724632d2c0b97cee2310891aaf43"
+          "size": 14250,
+          "sha512": "f643d183a6aad8ec5e1a06bd1c02ba8e3790fc2cbb3ab6ae24e2aaa9ab8ad139e78866894b1dac3ad36e68297457d768d59b653460c2e29dc3bc0cea674a335a",
+          "sha256": "e6a55c9ec7b8c3af872aa56e12f3636098b028bafb8d790172eb48c97c52d161",
+          "sha1": "83e655ef11713a87216c2f4563af01576e348c02",
+          "md5": "a4e9826fd7931d6cd1e5dc079c9b87c1"
         }
       ]
     }
