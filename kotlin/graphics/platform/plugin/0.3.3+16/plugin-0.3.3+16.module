@@ -46,7 +46,7 @@
           "group": "elect86.magik",
           "module": "elect86.magik.gradle.plugin",
           "version": {
-            "requires": "0.1.7"
+            "requires": "0.1.8"
           }
         }
       ]
@@ -83,7 +83,7 @@
           "group": "elect86.magik",
           "module": "elect86.magik.gradle.plugin",
           "version": {
-            "requires": "0.1.7"
+            "requires": "0.1.8"
           }
         }
       ]
