@@ -1,0 +1,384 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "glm",
+    "version": "0.9.9.1-3+25++27",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "kotlin.graphics",
+          "module": "unsigned",
+          "version": {
+            "requires": "3.3.1+2"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "kool",
+          "version": {
+            "requires": "0.9.0+25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "glm-0.9.9.1-3+25.jar",
+          "url": "glm-0.9.9.1-3+25.jar",
+          "size": 2178980,
+          "sha512": "94a29d2c005d91e434dd278aa7b46b14efa9430bc3d98290495dbf84851209b102d4929463ec9c4787c2e6bb8b7a914749439e4226ab4c0b4a1af1850981d204",
+          "sha256": "b55ebe67771432a4ba14f1aa0c0bdb84b89ad49668ecf37dc2144493d505d4fa",
+          "sha1": "123bd00e867fafea2d87a078a5191d03e403f72a",
+          "md5": "56fa9faa7538112c4a5d07ba9783b162"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics.platform",
+          "module": "source",
+          "version": {
+            "requires": "0.3.3+22"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "unsigned"
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "kool"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-openal"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-stb"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-glfw",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-jemalloc",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-openal",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-openal",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-opengl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-stb",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-stb",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "kotlin.graphics",
+          "module": "unsigned",
+          "version": {
+            "requires": "3.3.1+2"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "kool",
+          "version": {
+            "requires": "0.9.0+25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "glm-0.9.9.1-3+25.jar",
+          "url": "glm-0.9.9.1-3+25.jar",
+          "size": 2178980,
+          "sha512": "94a29d2c005d91e434dd278aa7b46b14efa9430bc3d98290495dbf84851209b102d4929463ec9c4787c2e6bb8b7a914749439e4226ab4c0b4a1af1850981d204",
+          "sha256": "b55ebe67771432a4ba14f1aa0c0bdb84b89ad49668ecf37dc2144493d505d4fa",
+          "sha1": "123bd00e867fafea2d87a078a5191d03e403f72a",
+          "md5": "56fa9faa7538112c4a5d07ba9783b162"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "glm-0.9.9.1-3+25-all.jar",
+          "url": "glm-0.9.9.1-3+25-all.jar",
+          "size": 7307200,
+          "sha512": "4f7a4791aeecf43693f5075a92e9346291959caba570a8058be3f4c45837cafc2449f4edcdf2b628884108c08c4bcebdf8850a7efc039764f86ff9be39050aa2",
+          "sha256": "d1fd12bad2296981d9dab507a24c60924e6a48d91bb29f08211660a0750fdfe3",
+          "sha1": "79de5a6ccdc684e591c86fd8bbcbb01371c2b6a8",
+          "md5": "899e8bcba93daba583034fd8a298a62a"
+        }
+      ]
+    },
+    {
+      "name": "jdk8ApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "glm-0.9.9.1-3+25-jdk8.jar",
+          "url": "glm-0.9.9.1-3+25-jdk8.jar",
+          "size": 2165057,
+          "sha512": "45febfec0292cdd364749bfc08e9e24f2733552ba2b019e2abd2cb089ca77ac8355d8e77030283059fccc5b67fab64dbf9f91b16a8e09fe7bd1500dcfbfd1eab",
+          "sha256": "880037520c2eec90f56a0adef9251e3461a02dd53482a4ff5effa9138d3ce291",
+          "sha1": "4d4f255df063211db08e8e2f03de06165a3795b6",
+          "md5": "e0094a727a1ec4521139b26a3d7fbd13"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "kotlin.graphics",
+          "name": "glm",
+          "version": "0.9.9.1-3+25"
+        }
+      ]
+    },
+    {
+      "name": "jdk8RuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics.platform",
+          "module": "source",
+          "version": {
+            "requires": "0.3.3+22"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "unsigned"
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "kool"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-openal"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-stb"
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "kotlin.graphics",
+          "module": "unsigned",
+          "version": {
+            "requires": "3.3.1+2"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "kool",
+          "version": {
+            "requires": "0.9.0+25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "glm-0.9.9.1-3+25-jdk8.jar",
+          "url": "glm-0.9.9.1-3+25-jdk8.jar",
+          "size": 2165057,
+          "sha512": "45febfec0292cdd364749bfc08e9e24f2733552ba2b019e2abd2cb089ca77ac8355d8e77030283059fccc5b67fab64dbf9f91b16a8e09fe7bd1500dcfbfd1eab",
+          "sha256": "880037520c2eec90f56a0adef9251e3461a02dd53482a4ff5effa9138d3ce291",
+          "sha1": "4d4f255df063211db08e8e2f03de06165a3795b6",
+          "md5": "e0094a727a1ec4521139b26a3d7fbd13"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "kotlin.graphics",
+          "name": "glm",
+          "version": "0.9.9.1-3+25"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "glm-0.9.9.1-3+25-sources.jar",
+          "url": "glm-0.9.9.1-3+25-sources.jar",
+          "size": 424754,
+          "sha512": "483506cc8506f16de4d7652a7573692891d36e830478eb94301b1b91c257e7cf8fe432e8170d6a655fb1c5b0c10aec346010b34af4851de2f71ecd11c5a94a06",
+          "sha256": "25e0f80a9285ed074046e995a46b5094228313ccd969e0e7e66d7c8d9dbd3aec",
+          "sha1": "403decab8e8c84ac6b05d17c1dedb6a98cfd7482",
+          "md5": "c6fdfc64bcae441baf6b04d38c6e1eee"
+        }
+      ]
+    }
+  ]
+}
