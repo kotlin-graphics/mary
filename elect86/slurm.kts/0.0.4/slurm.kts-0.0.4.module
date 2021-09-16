@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "elect86",
+    "module": "slurm.kts",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "slurm.kts-0.0.4.jar",
+          "url": "slurm.kts-0.0.4.jar",
+          "size": 71683,
+          "sha512": "6b905447d1b0064f93aeaa1b97c045e22427e541896eb689b481819ddb8f8c7a6e6d14d8772d16c687d53337c0dc3d3c81effa69b54f0608f7764db992835fe0",
+          "sha256": "47cc6a5430f704a46925e26581d0490da0101ca64bc2948d388b08684d1e2b86",
+          "sha1": "80d491d86b662adf5604dbc5af21e0e5ee09edba",
+          "md5": "e83d905a361a33a80009567f7dd09f82"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.5.21"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "slurm.kts-0.0.4.jar",
+          "url": "slurm.kts-0.0.4.jar",
+          "size": 71683,
+          "sha512": "6b905447d1b0064f93aeaa1b97c045e22427e541896eb689b481819ddb8f8c7a6e6d14d8772d16c687d53337c0dc3d3c81effa69b54f0608f7764db992835fe0",
+          "sha256": "47cc6a5430f704a46925e26581d0490da0101ca64bc2948d388b08684d1e2b86",
+          "sha1": "80d491d86b662adf5604dbc5af21e0e5ee09edba",
+          "md5": "e83d905a361a33a80009567f7dd09f82"
+        }
+      ]
+    }
+  ]
+}
