@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>kotlin.graphics</groupId>
+  <artifactId>awt</artifactId>
+  <versioning>
+    <latest>0.7.9+35</latest>
+    <release>0.7.9+35</release>
+    <versions>
+      <version>0.7.9+35</version>
+    </versions>
+    <lastUpdated>20211007192149</lastUpdated>
+  </versioning>
+</metadata>
