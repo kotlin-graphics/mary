@@ -7,7 +7,7 @@ kotlin.graphics:glm:0.9.9.1-3+26
 kotlin.graphics:gli:0.8.3.0-16+24
 kotlin.graphics:gln:0.5.2+26
 kotlin.graphics:vkk:0.3.2+38
-kotlin.graphics:uno:0.7.9+40
-kotlin.graphics:uno-awt:0.7.9+40
-kotlin.graphics:uno-core:0.7.9+40
-kotlin.graphics:uno-vk:0.7.9+40
+kotlin.graphics:uno:0.7.9+41
+kotlin.graphics:uno-awt:0.7.9+41
+kotlin.graphics:uno-core:0.7.9+41
+kotlin.graphics:uno-vk:0.7.9+41
