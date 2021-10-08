@@ -3,8 +3,8 @@
   <groupId>kx.publish</groupId>
   <artifactId>kx.publish.gradle.plugin</artifactId>
   <versioning>
-    <latest>0.7.3+48</latest>
-    <release>0.7.3+48</release>
+    <latest>0.7.3+49</latest>
+    <release>0.7.3+49</release>
     <versions>
       <version>0.0.2</version>
       <version>0.0.3</version>
@@ -113,7 +113,8 @@
       <version>0.7.3+46</version>
       <version>0.7.3+47</version>
       <version>0.7.3+48</version>
+      <version>0.7.3+49</version>
     </versions>
-    <lastUpdated>20211008172256</lastUpdated>
+    <lastUpdated>20211008173549</lastUpdated>
   </versioning>
 </metadata>
