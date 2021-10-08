@@ -3,12 +3,13 @@
   <groupId>kotlin.graphics</groupId>
   <artifactId>uno</artifactId>
   <versioning>
-    <latest>0.7.9+40</latest>
-    <release>0.7.9+40</release>
+    <latest>0.7.9+41</latest>
+    <release>0.7.9+41</release>
     <versions>
       <version>0.7.9+39</version>
       <version>0.7.9+40</version>
+      <version>0.7.9+41</version>
     </versions>
-    <lastUpdated>20211008102019</lastUpdated>
+    <lastUpdated>20211008174551</lastUpdated>
   </versioning>
 </metadata>
