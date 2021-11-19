@@ -1,5 +1,5 @@
 # This is a manually generated file for dependency alignment locking.
 # Other manual edits, outside the scope of the alignment, can break the build and are not advised.
 # This file is expected to be part of source control.
-kotlin.graphics.unsigned:3.3.3
-kotlin.graphics.kool:0.9.1
+kotlin.graphics:unsigned:3.3.3
+kotlin.graphics:kool:0.9.1
