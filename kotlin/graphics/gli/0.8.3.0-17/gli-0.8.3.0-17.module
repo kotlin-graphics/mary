@@ -1,0 +1,570 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "gli",
+    "version": "0.8.3.0-17",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "kotlin.graphics",
+          "module": "unsigned",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "kool",
+          "version": {
+            "requires": "0.9.1"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "glm",
+          "version": {
+            "requires": "0.9.9.1-4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gli-0.8.3.0-17.jar",
+          "url": "gli-0.8.3.0-17.jar",
+          "size": 332383,
+          "sha512": "96241fd19d5535afe093801116d94aede0674498d6faf4df065ff9a5b52ae2c82015e6c18ecc2cd6839beb857495db2733495f4a6308fdd0220d1cf5d9b5067f",
+          "sha256": "001263ef343805ae878ad4546ca04d81f2aee5a60693356fc20fd84b8ad0f5a7",
+          "sha1": "47c93d3282000bcc0490ce2eaf6f83f809f42bba",
+          "md5": "c98adc8dc8f04aefc0675d20af437820"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics",
+          "module": "platform-source",
+          "version": {
+            "requires": "0.3.6"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "unsigned"
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "kool"
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "glm"
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-bmp",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-core",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-icns",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-iff",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-jpeg",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-metadata",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-pcx",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-pdf",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-pict",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-pnm",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-psd",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-sgi",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-tga",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-thumbsdb",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-tiff",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.0"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "version": {
+            "requires": "3.3.0"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-jemalloc",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "version": {
+            "requires": "3.3.0"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-opengl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "kotlin.graphics",
+          "module": "unsigned",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "kool",
+          "version": {
+            "requires": "0.9.1"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "glm",
+          "version": {
+            "requires": "0.9.9.1-4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gli-0.8.3.0-17.jar",
+          "url": "gli-0.8.3.0-17.jar",
+          "size": 332383,
+          "sha512": "96241fd19d5535afe093801116d94aede0674498d6faf4df065ff9a5b52ae2c82015e6c18ecc2cd6839beb857495db2733495f4a6308fdd0220d1cf5d9b5067f",
+          "sha256": "001263ef343805ae878ad4546ca04d81f2aee5a60693356fc20fd84b8ad0f5a7",
+          "sha1": "47c93d3282000bcc0490ce2eaf6f83f809f42bba",
+          "md5": "c98adc8dc8f04aefc0675d20af437820"
+        }
+      ]
+    },
+    {
+      "name": "jdk8ApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "gli-0.8.3.0-17-jdk8.jar",
+          "url": "gli-0.8.3.0-17-jdk8.jar",
+          "size": 319654,
+          "sha512": "88f67a6642325e7faed78989a89bd9a99cc06e424869043744a182f67ce03d69dc429e1a28f42a01da8c39d3e8f82118da93ccacb065577dac8c6ee0f5e7e098",
+          "sha256": "a1460d8677dd2ccdbb6dbaeb714b891ac1b1c47aaa7a9ebc3cb406a18c386234",
+          "sha1": "140630d9e8178923ace3f89971914880e08c0f3f",
+          "md5": "806175d570d1fb28d78fbe89ded48da4"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "kotlin.graphics",
+          "name": "gli",
+          "version": "0.8.3.0-17"
+        }
+      ]
+    },
+    {
+      "name": "jdk8RuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics",
+          "module": "platform-source",
+          "version": {
+            "requires": "0.3.6"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "unsigned"
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "kool"
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "glm"
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-bmp",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-core",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-icns",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-iff",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-jpeg",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-metadata",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-pcx",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-pdf",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-pict",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-pnm",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-psd",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-sgi",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-tga",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-thumbsdb",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-tiff",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "version": {
+            "requires": "3.3.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "kotlin.graphics",
+          "module": "unsigned",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "kool",
+          "version": {
+            "requires": "0.9.1"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "glm",
+          "version": {
+            "requires": "0.9.9.1-4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gli-0.8.3.0-17-jdk8.jar",
+          "url": "gli-0.8.3.0-17-jdk8.jar",
+          "size": 319654,
+          "sha512": "88f67a6642325e7faed78989a89bd9a99cc06e424869043744a182f67ce03d69dc429e1a28f42a01da8c39d3e8f82118da93ccacb065577dac8c6ee0f5e7e098",
+          "sha256": "a1460d8677dd2ccdbb6dbaeb714b891ac1b1c47aaa7a9ebc3cb406a18c386234",
+          "sha1": "140630d9e8178923ace3f89971914880e08c0f3f",
+          "md5": "806175d570d1fb28d78fbe89ded48da4"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "kotlin.graphics",
+          "name": "gli",
+          "version": "0.8.3.0-17"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gli-0.8.3.0-17-sources.jar",
+          "url": "gli-0.8.3.0-17-sources.jar",
+          "size": 67701,
+          "sha512": "8c699d97c0d12934a1ab0433cae01fdbeb6d323468c65a228f9e51bc83e0cc03f12c34da3cf764428c00eb1b4c547e4ceef3f7402edc42d39ff11e009865e0c4",
+          "sha256": "2552663cde5d816d1919995593acee8afcadaafaa5f12aaecdfa7bc7b1c591ae",
+          "sha1": "718b5302024f9ad59b4fc7673878464770294316",
+          "md5": "07c53b06d4e78a79bad449ca338d1c21"
+        }
+      ]
+    }
+  ]
+}
