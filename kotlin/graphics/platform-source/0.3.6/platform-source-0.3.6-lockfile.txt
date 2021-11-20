@@ -3,3 +3,4 @@
 # This file is expected to be part of source control.
 kotlin.graphics:unsigned:3.3.3
 kotlin.graphics:kool:0.9.1
+kotlin.graphics:glm:0.9.9.1-4
