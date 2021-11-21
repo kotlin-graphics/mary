@@ -8,3 +8,6 @@ kotlin.graphics:gli:0.8.3.0-17
 kotlin.graphics:gln:0.5.3
 kotlin.graphics:vkk:0.3.3
 kotlin.graphics:uno:0.7.10
+kotlin.graphics:uno-awt:0.7.10
+kotlin.graphics:uno-core:0.7.10
+kotlin.graphics:uno-vk:0.7.10
