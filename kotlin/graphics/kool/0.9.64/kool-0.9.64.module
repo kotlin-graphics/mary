@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "kool",
+    "version": "0.9.64",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kool-0.9.64.jar",
+          "url": "kool-0.9.64.jar",
+          "size": 264152,
+          "sha512": "aad50ef7787b3905fb431421df40922f15fff666db7f6ce70d3360e4d785ff31aba8adaebef0ecaaf8eb42ca106cfea9ea343d4576686e717ad26cc10adae475",
+          "sha256": "3b0784c4f0f50abf867c1884b9c1acc9e06531f261db8a5b3aeaec7c96af9b81",
+          "sha1": "da7ff437c28d21d7d5abaf6e3bd22b6f83125e6b",
+          "md5": "5641b1fa1e755a8cb342cdf158266d0f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "io.kotest",
+          "module": "kotest-runner-junit5",
+          "version": {
+            "requires": "5.5.2"
+          }
+        },
+        {
+          "group": "io.kotest",
+          "module": "kotest-assertions-core",
+          "version": {
+            "requires": "5.5.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.1"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "version": {
+            "requires": "3.3.1"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-jemalloc",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kool-0.9.64.jar",
+          "url": "kool-0.9.64.jar",
+          "size": 264152,
+          "sha512": "aad50ef7787b3905fb431421df40922f15fff666db7f6ce70d3360e4d785ff31aba8adaebef0ecaaf8eb42ca106cfea9ea343d4576686e717ad26cc10adae475",
+          "sha256": "3b0784c4f0f50abf867c1884b9c1acc9e06531f261db8a5b3aeaec7c96af9b81",
+          "sha1": "da7ff437c28d21d7d5abaf6e3bd22b6f83125e6b",
+          "md5": "5641b1fa1e755a8cb342cdf158266d0f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kool-0.9.64-sources.jar",
+          "url": "kool-0.9.64-sources.jar",
+          "size": 47050,
+          "sha512": "15a99ea1b101cf9fcd8faacee1b15ccc250d61abdb039f2de83255202d5142f23fcca37d53aa6b5ae9c003fa24b6415a9b962741f3ad42f16ff6f271ac0fa24d",
+          "sha256": "44d1d518c77f75e4cac0a672dc0af8e4f73d5245d4be420c8ddc58efc0adbcc5",
+          "sha1": "5b024319ae10e01225c2a605c198f6e30cfaf9d0",
+          "md5": "db9231fae39fd99b1eea1ce08140a4ca"
+        }
+      ]
+    }
+  ]
+}
