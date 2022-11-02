@@ -59,14 +59,14 @@
       },
       "dependencies": [
         {
-          "group": "uno",
+          "group": "kotlin.graphics",
           "module": "core",
           "version": {
             "requires": "0.7.11"
           }
         },
         {
-          "group": "uno",
+          "group": "kotlin.graphics",
           "module": "awt",
           "version": {
             "requires": "0.7.11"
