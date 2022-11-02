@@ -24,7 +24,7 @@
     </dependency>
     <dependency>
       <groupId>kotlin.graphics</groupId>
-      <artifactId>awt</artifactId>
+      <artifactId>uno-awt</artifactId>
       <version>0.7.11</version>
       <scope>runtime</scope>
     </dependency>
