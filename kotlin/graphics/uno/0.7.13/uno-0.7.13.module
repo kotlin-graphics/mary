@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "uno",
+    "version": "0.7.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uno-0.7.13.jar",
+          "url": "uno-0.7.13.jar",
+          "size": 261,
+          "sha512": "575f0c147f743b95cb6dea872a5cacf399fb0bb68031fff4cd2b58018993724467b23d04b0c12513bbf07b323a2aefda316e420e70bf7b004087dd2e0dab09be",
+          "sha256": "b306dc0fe0af45b3ed4fc67fc942a7f2b8952eee7d63e90f10f780e49951be7b",
+          "sha1": "0aa667a0120f8e3b3a9009a52ae14b379d7d5358",
+          "md5": "4638e0db81fa64f3f1c8ee2b2ce28895"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics",
+          "module": "uno-core",
+          "version": {
+            "requires": "0.7.13"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "uno-awt",
+          "version": {
+            "requires": "0.7.13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uno-0.7.13.jar",
+          "url": "uno-0.7.13.jar",
+          "size": 261,
+          "sha512": "575f0c147f743b95cb6dea872a5cacf399fb0bb68031fff4cd2b58018993724467b23d04b0c12513bbf07b323a2aefda316e420e70bf7b004087dd2e0dab09be",
+          "sha256": "b306dc0fe0af45b3ed4fc67fc942a7f2b8952eee7d63e90f10f780e49951be7b",
+          "sha1": "0aa667a0120f8e3b3a9009a52ae14b379d7d5358",
+          "md5": "4638e0db81fa64f3f1c8ee2b2ce28895"
+        }
+      ]
+    }
+  ]
+}
