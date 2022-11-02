@@ -67,7 +67,7 @@
         },
         {
           "group": "kotlin.graphics",
-          "module": "awt",
+          "module": "uno-awt",
           "version": {
             "requires": "0.7.11"
           }
