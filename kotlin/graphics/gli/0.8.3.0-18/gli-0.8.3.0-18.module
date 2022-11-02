@@ -1,0 +1,294 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "gli",
+    "version": "0.8.3.0-18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gli-0.8.3.0-18.jar",
+          "url": "gli-0.8.3.0-18.jar",
+          "size": 327835,
+          "sha512": "b99960f357dccec95f00b613296a3765d7a57e7354b6df95da91ded30eaab75701cb102f2df81b43b3d9469286f9f3b0f163749f85d4742331c29b3d3b3fea9e",
+          "sha256": "7349362418ccacd5bc6fe45211454a506f6bbdd7686f71ae40765cb4a1aef706",
+          "sha1": "0b212eeacb371dac5c1a5737cec5e3b5128d1308",
+          "md5": "f35d8abf3a2f1965bd0c67f15485de76"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics",
+          "module": "glm",
+          "version": {
+            "requires": "0.9.9.1-5"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "unsigned",
+          "version": {
+            "requires": "3.3.31"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "kool",
+          "version": {
+            "requires": "0.9.68"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-bmp",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-core",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-icns",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-iff",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-jpeg",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-metadata",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-pcx",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-pdf",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-pict",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-pnm",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-psd",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-sgi",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-tga",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-thumbsdb",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "com.twelvemonkeys.imageio",
+          "module": "imageio-tiff",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.1"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "version": {
+            "requires": "3.3.1"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-jemalloc",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "version": {
+            "requires": "3.3.1"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-opengl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gli-0.8.3.0-18.jar",
+          "url": "gli-0.8.3.0-18.jar",
+          "size": 327835,
+          "sha512": "b99960f357dccec95f00b613296a3765d7a57e7354b6df95da91ded30eaab75701cb102f2df81b43b3d9469286f9f3b0f163749f85d4742331c29b3d3b3fea9e",
+          "sha256": "7349362418ccacd5bc6fe45211454a506f6bbdd7686f71ae40765cb4a1aef706",
+          "sha1": "0b212eeacb371dac5c1a5737cec5e3b5128d1308",
+          "md5": "f35d8abf3a2f1965bd0c67f15485de76"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gli-0.8.3.0-18-sources.jar",
+          "url": "gli-0.8.3.0-18-sources.jar",
+          "size": 68097,
+          "sha512": "5ca855ff9a120355116edf0f6532ffa54f64ea65f88f1b23395b1c758be603cb94690c7f78d5ee78b3c043a947125502279293407bd3b6641d5dadb850900303",
+          "sha256": "3d2a025c1a150f4f65caea7ade2b6d13c3f165599a15f723f82710099970ca0d",
+          "sha1": "b425e12836d83de113ad4690374da5a1203c0b88",
+          "md5": "2a83c0e77dc933176832cf915adf28df"
+        }
+      ]
+    }
+  ]
+}
