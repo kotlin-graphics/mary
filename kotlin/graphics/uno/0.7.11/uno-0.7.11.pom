@@ -17,13 +17,13 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>uno</groupId>
+      <groupId>kotlin.graphics</groupId>
       <artifactId>core</artifactId>
       <version>0.7.11</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>uno</groupId>
+      <groupId>kotlin.graphics</groupId>
       <artifactId>awt</artifactId>
       <version>0.7.11</version>
       <scope>runtime</scope>
