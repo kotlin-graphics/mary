@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "kool",
+    "version": "0.9.71",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kool-0.9.71.jar",
+          "url": "kool-0.9.71.jar",
+          "size": 456697,
+          "sha512": "10c6419c33b716ced69fef4a9cabcbf31a5190ee29827f2be4f818c5ab7cc77dfba0864321b433289835eab380782c90922de00eb14ed979e7b46a4d21fb8950",
+          "sha256": "08c26f2440588765e6e8d3b4a8d5e66f8de3c40a7585a49a8a363bc8ba1dedd3",
+          "sha1": "a4dd947abfa7d3420b480fb848de3e205c5974de",
+          "md5": "2e50d45c99e5989ae51fb4c5830aeb75"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.1"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "version": {
+            "requires": "3.3.1"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-jemalloc",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kool-0.9.71.jar",
+          "url": "kool-0.9.71.jar",
+          "size": 456697,
+          "sha512": "10c6419c33b716ced69fef4a9cabcbf31a5190ee29827f2be4f818c5ab7cc77dfba0864321b433289835eab380782c90922de00eb14ed979e7b46a4d21fb8950",
+          "sha256": "08c26f2440588765e6e8d3b4a8d5e66f8de3c40a7585a49a8a363bc8ba1dedd3",
+          "sha1": "a4dd947abfa7d3420b480fb848de3e205c5974de",
+          "md5": "2e50d45c99e5989ae51fb4c5830aeb75"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kool-0.9.71-sources.jar",
+          "url": "kool-0.9.71-sources.jar",
+          "size": 118537,
+          "sha512": "a46eaae5af790aa4cf994203a2718e55b63e3f1bd07985a0677ec8d28724a3b5a51e661c80b9b1a2c6086b86fae7a3ff29cbdfe9625865c6fda1b0f8c01f727f",
+          "sha256": "26b90fcbf8cb08b9d538a8d43946f3a9dc3d93daa5ed830844226a1f3615ca2b",
+          "sha1": "e1b23ba479562a9366b01ef2699da9bb39338ee8",
+          "md5": "1d84e29b7af173a21ff1ba3de516dc20"
+        }
+      ]
+    }
+  ]
+}
