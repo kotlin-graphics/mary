@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "unsigned",
+    "version": "3.3.32",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unsigned-3.3.32.jar",
+          "url": "unsigned-3.3.32.jar",
+          "size": 47496,
+          "sha512": "6a4f1ebb1b301b304109d68864253f5195ee42e7e128212078e909806a7c9edad7b8b57209370d07fddb3b47c6e2e895c3f9cb42a1475e916c853f1dd0d1fd5e",
+          "sha256": "d0508e828b40c16cce5693a1ac0ff339b36cce134d66d44aed157ba77680ad57",
+          "sha1": "f6e13f88f0de06f844debcb6616dbb39a97f2bc6",
+          "md5": "09cb82dda978ea50ce2f7e6a716075df"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unsigned-3.3.32.jar",
+          "url": "unsigned-3.3.32.jar",
+          "size": 47496,
+          "sha512": "6a4f1ebb1b301b304109d68864253f5195ee42e7e128212078e909806a7c9edad7b8b57209370d07fddb3b47c6e2e895c3f9cb42a1475e916c853f1dd0d1fd5e",
+          "sha256": "d0508e828b40c16cce5693a1ac0ff339b36cce134d66d44aed157ba77680ad57",
+          "sha1": "f6e13f88f0de06f844debcb6616dbb39a97f2bc6",
+          "md5": "09cb82dda978ea50ce2f7e6a716075df"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "unsigned-3.3.32-sources.jar",
+          "url": "unsigned-3.3.32-sources.jar",
+          "size": 9466,
+          "sha512": "85e7a85017cdd6506e139f3787cf142353e2c638ad1f726ce0e45b74ed543eeebf030436f45b953c9dff8bafcea092b619d9c2b1775e16ce4b3495d656d04282",
+          "sha256": "c951b4fe00a98e7d546afcb57fd1eb37327d80541d7aa0f7a3ce5e86374cc92c",
+          "sha1": "861e6cf9f7274e6725fc1dd9423e5976d3f8305c",
+          "md5": "1a90f8b704848bd76ebfff9547ae5c2a"
+        }
+      ]
+    }
+  ]
+}
