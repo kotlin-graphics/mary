@@ -25,6 +25,15 @@
         "org.gradle.usage": "java-api",
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
       "files": [
         {
           "name": "kool-0.9.75.jar",
@@ -50,13 +59,6 @@
       },
       "dependencies": [
         {
-          "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib",
-          "version": {
-            "requires": "1.8.10"
-          }
-        },
-        {
           "group": "org.lwjgl",
           "module": "lwjgl",
           "version": {
@@ -68,6 +70,13 @@
           "module": "lwjgl-jemalloc",
           "version": {
             "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
           }
         },
         {
