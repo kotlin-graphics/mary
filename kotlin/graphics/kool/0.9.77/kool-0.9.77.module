@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "kool",
+    "version": "0.9.77",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kool-0.9.77.jar",
+          "url": "kool-0.9.77.jar",
+          "size": 499672,
+          "sha512": "f1b0223d39a0f653ab237b4cc77e892f7a40b82b78f6f80484ad0b16fba59303130161cf4df2bc4332621c71a3be2c0c2183f8ac1ecbc128144cc26a0e1134d2",
+          "sha256": "b69d66800ae9ccea15462b46e39ec2f05e8c500450f2ee577d29efd02eee352e",
+          "sha1": "5ae2ba0de337693172e30061196ab6c8687032ce",
+          "md5": "157a612efdeb64f1ed9e234401d4a67c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-jemalloc",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kool-0.9.77.jar",
+          "url": "kool-0.9.77.jar",
+          "size": 499672,
+          "sha512": "f1b0223d39a0f653ab237b4cc77e892f7a40b82b78f6f80484ad0b16fba59303130161cf4df2bc4332621c71a3be2c0c2183f8ac1ecbc128144cc26a0e1134d2",
+          "sha256": "b69d66800ae9ccea15462b46e39ec2f05e8c500450f2ee577d29efd02eee352e",
+          "sha1": "5ae2ba0de337693172e30061196ab6c8687032ce",
+          "md5": "157a612efdeb64f1ed9e234401d4a67c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kool-0.9.77-sources.jar",
+          "url": "kool-0.9.77-sources.jar",
+          "size": 119804,
+          "sha512": "c9cbc71755e846504c33784e9f99e0300e0ae757b1c1ea1ef743f399f13468cb29cd4b053fdc51ed795043bd9078a079cb6ae396e2414616540bbcbdbd677c32",
+          "sha256": "74382cc42dd834b0be6d1c00662f15a7d42e8a66524c464ff7d653b38fe4f90e",
+          "sha1": "7ef2ba4e1d4ef361b0c9c319d64ef7c6c931b0a9",
+          "md5": "8264503cf14094b32524d4131d5627f4"
+        }
+      ]
+    }
+  ]
+}
