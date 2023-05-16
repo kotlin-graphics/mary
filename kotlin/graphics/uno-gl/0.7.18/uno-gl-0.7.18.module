@@ -1,0 +1,211 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "uno-gl",
+    "version": "0.7.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics",
+          "module": "gln",
+          "version": {
+            "requires": "0.5.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uno-gl-0.7.18.jar",
+          "url": "uno-gl-0.7.18.jar",
+          "size": 3205,
+          "sha512": "89d6e059aefe177959338bec901804c40d701d3944ac119f44fbff3dda7bbf10b227d3c510865d69337a043baa0025b5cf8b2be6243ed131a51ddfa211ca5b6d",
+          "sha256": "2109537624b8143d176b2d623d7e6b921017b7c2a04a46aeb79578d770a08240",
+          "sha1": "69c598940bce7eaaff25af6ef941af8e66f81197",
+          "md5": "3cd544efc58b5f0c3ed36016f3d471b3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics",
+          "module": "uno-core",
+          "version": {
+            "requires": "0.7.18"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "gln",
+          "version": {
+            "requires": "0.5.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-glfw",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-jemalloc",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-opengl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uno-gl-0.7.18.jar",
+          "url": "uno-gl-0.7.18.jar",
+          "size": 3205,
+          "sha512": "89d6e059aefe177959338bec901804c40d701d3944ac119f44fbff3dda7bbf10b227d3c510865d69337a043baa0025b5cf8b2be6243ed131a51ddfa211ca5b6d",
+          "sha256": "2109537624b8143d176b2d623d7e6b921017b7c2a04a46aeb79578d770a08240",
+          "sha1": "69c598940bce7eaaff25af6ef941af8e66f81197",
+          "md5": "3cd544efc58b5f0c3ed36016f3d471b3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "uno-gl-0.7.18-sources.jar",
+          "url": "uno-gl-0.7.18-sources.jar",
+          "size": 1515,
+          "sha512": "c83d84399ce52eb032b86b4b003b9c47b608c012ae5da71ac66ad338591d21d305b22de47741877460af6994874c2b24cad121d0aac4e0ad8f7cb68a550186d8",
+          "sha256": "00f00b9c2e6c5a2694df966d35c1e45d5e3759762a9384c9e53922ceb14349b4",
+          "sha1": "1170406082c1816c4bd74b03014e32f151fef15d",
+          "md5": "afb04abf68e3c0355465c687359697d7"
+        }
+      ]
+    }
+  ]
+}
