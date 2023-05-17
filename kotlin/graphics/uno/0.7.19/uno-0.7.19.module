@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "uno",
+    "version": "0.7.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics",
+          "module": "uno-core",
+          "version": {
+            "requires": "0.7.19"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "uno-awt",
+          "version": {
+            "requires": "0.7.19"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "uno-gl",
+          "version": {
+            "requires": "0.7.19"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uno-0.7.19.jar",
+          "url": "uno-0.7.19.jar",
+          "size": 261,
+          "sha512": "722c652944c55c9c385858585629536b1e21f38589ca3be99013d10dc55e85aabcaadc311f57a480fb22c7b4696d2251cf68e28d122520a2e899a3f23b58161b",
+          "sha256": "eca9599e8077daae312375b1b56538430fe277f16ea0836ccf1daf735b00ece1",
+          "sha1": "490ea5b5415dccc4e33990b2398dd9ebd53b17a0",
+          "md5": "d23c3d9e09ac30b5e7fa418b27301865"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics",
+          "module": "uno-core",
+          "version": {
+            "requires": "0.7.19"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "uno-awt",
+          "version": {
+            "requires": "0.7.19"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "uno-gl",
+          "version": {
+            "requires": "0.7.19"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uno-0.7.19.jar",
+          "url": "uno-0.7.19.jar",
+          "size": 261,
+          "sha512": "722c652944c55c9c385858585629536b1e21f38589ca3be99013d10dc55e85aabcaadc311f57a480fb22c7b4696d2251cf68e28d122520a2e899a3f23b58161b",
+          "sha256": "eca9599e8077daae312375b1b56538430fe277f16ea0836ccf1daf735b00ece1",
+          "sha1": "490ea5b5415dccc4e33990b2398dd9ebd53b17a0",
+          "md5": "d23c3d9e09ac30b5e7fa418b27301865"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "uno-0.7.19-sources.jar",
+          "url": "uno-0.7.19-sources.jar",
+          "size": 261,
+          "sha512": "3d574c552eb266331b64c63ef0acccfc9d2b87c0729a4178caa5f74aeeb90c59306048b8c1ec9fd6196273c926b70457444fa5718d8dd44b54935d061e86f39f",
+          "sha256": "57f5880e372ae978cec6914e17c8b3664133c0455abdd08bddba4191408f5d2f",
+          "sha1": "9c4f90ebb3aa4c6e74f36d4d5cc45fa69e77776c",
+          "md5": "22a4010860437eca01e0477ca61badae"
+        }
+      ]
+    }
+  ]
+}
