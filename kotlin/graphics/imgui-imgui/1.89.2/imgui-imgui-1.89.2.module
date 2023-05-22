@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "imgui-imgui",
+    "version": "1.89.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics",
+          "module": "imgui-core",
+          "version": {
+            "requires": "1.89.2"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "imgui-gl",
+          "version": {
+            "requires": "1.89.2"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "imgui-glfw",
+          "version": {
+            "requires": "1.89.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "imgui-imgui-1.89.2.jar",
+          "url": "imgui-imgui-1.89.2.jar",
+          "size": 261,
+          "sha512": "4969eae5c39b8c69f8db75591332f472af411aa4fdc16b69aeee14c0c091102114d0d1d9ed9c5d75f460ad1ee6e26fabd4d4749f9131ff35516ecb05a5bc3cd7",
+          "sha256": "7c05d5a3a8687b637f96db90841e2a39ba1562af409a1b4b858c98f7e8f6eb2e",
+          "sha1": "4a03e1aeef992c235d081a270faf4937469eaa6f",
+          "md5": "b6057dfad1fb07c43b403d06c34106db"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics",
+          "module": "imgui-core",
+          "version": {
+            "requires": "1.89.2"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "imgui-gl",
+          "version": {
+            "requires": "1.89.2"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "imgui-glfw",
+          "version": {
+            "requires": "1.89.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "imgui-imgui-1.89.2.jar",
+          "url": "imgui-imgui-1.89.2.jar",
+          "size": 261,
+          "sha512": "4969eae5c39b8c69f8db75591332f472af411aa4fdc16b69aeee14c0c091102114d0d1d9ed9c5d75f460ad1ee6e26fabd4d4749f9131ff35516ecb05a5bc3cd7",
+          "sha256": "7c05d5a3a8687b637f96db90841e2a39ba1562af409a1b4b858c98f7e8f6eb2e",
+          "sha1": "4a03e1aeef992c235d081a270faf4937469eaa6f",
+          "md5": "b6057dfad1fb07c43b403d06c34106db"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "imgui-imgui-1.89.2-sources.jar",
+          "url": "imgui-imgui-1.89.2-sources.jar",
+          "size": 261,
+          "sha512": "01f8df07b393292e8459d26064141939c7a4417299b9774d9b9fc4573ef9ae6731c206364bb2553bd004f1a505027b1804cdd5edf31a5cc46a41e116177404d1",
+          "sha256": "b4224aa740be3aa9948320d641501319fd6c9ddd5b1fe64bbe6d9a1a2014d8ff",
+          "sha1": "504ab41158d91717a0dfc2a38c70827b99402d0b",
+          "md5": "873851917fb95de06ca995d48238d5eb"
+        }
+      ]
+    }
+  ]
+}
