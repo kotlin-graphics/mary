@@ -30,7 +30,7 @@
           "group": "kotlin.graphics",
           "module": "uno",
           "version": {
-            "requires": "0.7.19"
+            "requires": "0.7.21"
           }
         },
         {
@@ -45,11 +45,11 @@
         {
           "name": "imgui-glfw-1.89.2.jar",
           "url": "imgui-glfw-1.89.2.jar",
-          "size": 34134,
-          "sha512": "eff5a647832c0bf084373c77d0125ff06fdd4ab96e31335f6e996c82f7224943593cf759c61f2c17b75be5ccb2d569a84599542a4263b85995b8d3ff0b5e5142",
-          "sha256": "dd93450a909d20c62bd20df2e99a200d5ac7ff7d416b2b186f5c9a7eb0a18eec",
-          "sha1": "fdc90f5dc92743bf32509d6505a11302de24a085",
-          "md5": "53ab9d9d9ab2fbd342b728ab04825184"
+          "size": 36784,
+          "sha512": "cabf7fbdd02fb56e52602ee886ad53654573c99886e8b7219e8bc2080ed6de63b7f900dff7f725071cd6107e703d5700c876cf2c82728027f207c6ca06f10590",
+          "sha256": "455c77ec7ff3e949228548c38dce732f3dbe0e4f2b6f84c405f238f40116370e",
+          "sha1": "8bb2d9c18e7b9aab390969744ac55f675177b1ab",
+          "md5": "3871a5f27388ffc2416dc84140008db9"
         }
       ]
     },
@@ -111,7 +111,7 @@
           "group": "kotlin.graphics",
           "module": "uno",
           "version": {
-            "requires": "0.7.19"
+            "requires": "0.7.21"
           }
         },
         {
@@ -186,11 +186,11 @@
         {
           "name": "imgui-glfw-1.89.2.jar",
           "url": "imgui-glfw-1.89.2.jar",
-          "size": 34134,
-          "sha512": "eff5a647832c0bf084373c77d0125ff06fdd4ab96e31335f6e996c82f7224943593cf759c61f2c17b75be5ccb2d569a84599542a4263b85995b8d3ff0b5e5142",
-          "sha256": "dd93450a909d20c62bd20df2e99a200d5ac7ff7d416b2b186f5c9a7eb0a18eec",
-          "sha1": "fdc90f5dc92743bf32509d6505a11302de24a085",
-          "md5": "53ab9d9d9ab2fbd342b728ab04825184"
+          "size": 36784,
+          "sha512": "cabf7fbdd02fb56e52602ee886ad53654573c99886e8b7219e8bc2080ed6de63b7f900dff7f725071cd6107e703d5700c876cf2c82728027f207c6ca06f10590",
+          "sha256": "455c77ec7ff3e949228548c38dce732f3dbe0e4f2b6f84c405f238f40116370e",
+          "sha1": "8bb2d9c18e7b9aab390969744ac55f675177b1ab",
+          "md5": "3871a5f27388ffc2416dc84140008db9"
         }
       ]
     },
@@ -206,11 +206,11 @@
         {
           "name": "imgui-glfw-1.89.2-sources.jar",
           "url": "imgui-glfw-1.89.2-sources.jar",
-          "size": 6804,
-          "sha512": "838b51b46333b896d8cc4859ad70d58771649802d0a2684286de9e3e7d8baad914c2be3820c5eadc72730209d242f2495e9eacfe1c725d6be75018dd7fbd781f",
-          "sha256": "ef172c650cb586b795d357ebdcb155ff8923ba98fd79266d06d4440141fdba31",
-          "sha1": "d9e9e1c928bb015a2a349cbc5634e0719cd8d96b",
-          "md5": "cbcd64a03124c683922a8d72521a5939"
+          "size": 7143,
+          "sha512": "8ba3a094b3230400ec446cdf70e83a525de3c7c89fd568dd7ffe5a9a52cb846f6995461c705b7214ba68274d67c0171cac743c6c56fbc0709822212244c726d5",
+          "sha256": "1052323023e1c8e79c318f27ef6d260c1b8cb9f63b25af83ce6e56b89369152f",
+          "sha1": "17d693e5f8bc9de8da1deccad585692daf21aec0",
+          "md5": "f24752693228c12ee0a35fbc9f6af965"
         }
       ]
     }
