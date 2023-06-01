@@ -1,0 +1,218 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "imgui-glfw",
+    "version": "1.89.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics",
+          "module": "uno",
+          "version": {
+            "requires": "0.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "imgui-glfw-1.89.3.jar",
+          "url": "imgui-glfw-1.89.3.jar",
+          "size": 36784,
+          "sha512": "e5934d800b344ccca6ce4b9658a3dd88a5a096d4dc9e60db43567ef257ae539ed26f13008725e1410c0282046d645dbfbaacc0b9338dedc2408293a55914a51f",
+          "sha256": "bf03dc8a7e5c2eb42f9a3345ba516221a48a579046fa8de0dbbca675e4f1b98d",
+          "sha1": "5a9e14e53743ee2ed4ecd633af74ee3123ece6a4",
+          "md5": "fa043dd68cbd88057008f631196677c1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "imgui-core",
+          "version": {
+            "requires": "1.89.3"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-remotery",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "uno",
+          "version": {
+            "requires": "0.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-glfw",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-opengl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-remotery",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-remotery",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "imgui-glfw-1.89.3.jar",
+          "url": "imgui-glfw-1.89.3.jar",
+          "size": 36784,
+          "sha512": "e5934d800b344ccca6ce4b9658a3dd88a5a096d4dc9e60db43567ef257ae539ed26f13008725e1410c0282046d645dbfbaacc0b9338dedc2408293a55914a51f",
+          "sha256": "bf03dc8a7e5c2eb42f9a3345ba516221a48a579046fa8de0dbbca675e4f1b98d",
+          "sha1": "5a9e14e53743ee2ed4ecd633af74ee3123ece6a4",
+          "md5": "fa043dd68cbd88057008f631196677c1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "imgui-glfw-1.89.3-sources.jar",
+          "url": "imgui-glfw-1.89.3-sources.jar",
+          "size": 7143,
+          "sha512": "a54712a05af09590de0a5d3643e630ec675131e8a6ab059a086ea811d504b5c012f2c4450d17a8bc65fc1561ffa08ad36a6d2f44512b1c1dd0424b9ff8d271e6",
+          "sha256": "1656b3c538d81d76041020d792a8a51fca6e28388dd7e3818f43a02346c81ad3",
+          "sha1": "a5123321fde9d909a5f51cc46855c62aab5e58cc",
+          "md5": "8b15839094aa42b933d6fe230a4a0eb8"
+        }
+      ]
+    }
+  ]
+}
