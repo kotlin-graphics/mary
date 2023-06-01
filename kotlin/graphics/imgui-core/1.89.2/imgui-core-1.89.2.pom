@@ -13,7 +13,7 @@
     <dependency>
       <groupId>kotlin.graphics</groupId>
       <artifactId>uno-core</artifactId>
-      <version>0.7.19</version>
+      <version>0.7.21</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
