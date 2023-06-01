@@ -30,7 +30,7 @@
           "group": "kotlin.graphics",
           "module": "uno",
           "version": {
-            "requires": "0.7.19"
+            "requires": "0.7.21"
           }
         }
       ],
@@ -38,11 +38,11 @@
         {
           "name": "imgui-gl-1.89.2.jar",
           "url": "imgui-gl-1.89.2.jar",
-          "size": 47462,
-          "sha512": "4996122cbd2eba8e9c6d41db9dcee3c51e39812c9f6b344ab8d8aef5e9c8150b4271eeeddd4fe76a087cf688fa1dacb6372696e85d2ce6a598627b906c1480f6",
-          "sha256": "2ee7b27bdd19af40837f0b2c629ffeecc2a878184984a02f0f99bb9a06418b64",
-          "sha1": "f9cc590576cc787e16b889216dddadd39f0aca8c",
-          "md5": "67cdfdc209bc4fcb67e5e16e6c772f71"
+          "size": 48666,
+          "sha512": "b76e8a7ec6071487cb96a08f9d30f6738a427f9fbb20ef7245dc5459256a6eb1f00559d694d43b1bd15d313589d57df732c13f0e21152a5134d479d8e53f944c",
+          "sha256": "e0742552f41f2869ec415096dfc8da83091d8d42d0ac85a3f069fc10aa2445d5",
+          "sha1": "8ab56b0a48e8a873751b2a1bc0520d24da593565",
+          "md5": "e99c8a2e7e4e5d6471f37b1397c9c606"
         }
       ]
     },
@@ -132,7 +132,7 @@
           "group": "kotlin.graphics",
           "module": "uno",
           "version": {
-            "requires": "0.7.19"
+            "requires": "0.7.21"
           }
         },
         {
@@ -230,11 +230,11 @@
         {
           "name": "imgui-gl-1.89.2.jar",
           "url": "imgui-gl-1.89.2.jar",
-          "size": 47462,
-          "sha512": "4996122cbd2eba8e9c6d41db9dcee3c51e39812c9f6b344ab8d8aef5e9c8150b4271eeeddd4fe76a087cf688fa1dacb6372696e85d2ce6a598627b906c1480f6",
-          "sha256": "2ee7b27bdd19af40837f0b2c629ffeecc2a878184984a02f0f99bb9a06418b64",
-          "sha1": "f9cc590576cc787e16b889216dddadd39f0aca8c",
-          "md5": "67cdfdc209bc4fcb67e5e16e6c772f71"
+          "size": 48666,
+          "sha512": "b76e8a7ec6071487cb96a08f9d30f6738a427f9fbb20ef7245dc5459256a6eb1f00559d694d43b1bd15d313589d57df732c13f0e21152a5134d479d8e53f944c",
+          "sha256": "e0742552f41f2869ec415096dfc8da83091d8d42d0ac85a3f069fc10aa2445d5",
+          "sha1": "8ab56b0a48e8a873751b2a1bc0520d24da593565",
+          "md5": "e99c8a2e7e4e5d6471f37b1397c9c606"
         }
       ]
     },
@@ -250,11 +250,11 @@
         {
           "name": "imgui-gl-1.89.2-sources.jar",
           "url": "imgui-gl-1.89.2-sources.jar",
-          "size": 15261,
-          "sha512": "dd54cc0186c205c71c95c0ff6901055d702963d3668e187386a9f81898ad16000ef80c53dc3580821354b72e17bfa630a3880703880664aa376f1fd4fe7ad06f",
-          "sha256": "2d1952e78fae3b2e6ccf2e4e21486eece85889ce4a35cdca080ff67ae8d24c4a",
-          "sha1": "66b969c3cc43e8337892fc806573e49e22534623",
-          "md5": "fe11fe97aeabae48d08981bbd43fa5d0"
+          "size": 15314,
+          "sha512": "ebb57d454db36d967d070f90f16240bbcad9032f8dbf2f1aa8f66246cc8a93ea8ad812310a591eb9ea79bf1f9a86219452b15123924cf69f4f21854b279c744a",
+          "sha256": "0496c4ac5d99699c9334f2f7ba242f51b403ecc9a2e42aeddd4311ddafd0401a",
+          "sha1": "ee2b69ca2b5029f50b161dd64237d11768f9d4cd",
+          "md5": "850dee648ce7860cfc36d86a57df3894"
         }
       ]
     }
