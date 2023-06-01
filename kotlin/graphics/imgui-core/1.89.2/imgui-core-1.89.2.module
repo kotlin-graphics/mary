@@ -30,7 +30,7 @@
           "group": "kotlin.graphics",
           "module": "uno-core",
           "version": {
-            "requires": "0.7.19"
+            "requires": "0.7.21"
           }
         },
         {
@@ -45,11 +45,11 @@
         {
           "name": "imgui-core-1.89.2.jar",
           "url": "imgui-core-1.89.2.jar",
-          "size": 18589199,
-          "sha512": "545e72875542ded42f86d3f42f9a59db17c20466d66b8a993eb865abf922d93cada880b71d96b64b6d565fbd7c1c6b48a55b4c50a7447aeb0c36807c2e800d0a",
-          "sha256": "8381e4556fd73e35897dca4dac22b9f6a83321d4117898a9c6dfd181a0664fdc",
-          "sha1": "0878313af91ed280073a9809ff462d8b91f9d0bb",
-          "md5": "7c9857becef1cd434f58520415d0c0c5"
+          "size": 18614734,
+          "sha512": "b911ad528f183cfa2d7eed4de646da1a8e0351d91f2deee9e5fdb738e1b89bb1ad4b69a3b91feb4074889d4b2ea8f5c0b188763f6bbbcc124dcb746f485aa98c",
+          "sha256": "9c5e334e8372858ab323ff4c7e5c9644017246619ce0fcf3fc2c659e1627a397",
+          "sha1": "2cfae0824603b00aea5a32fc7b2ee20b6e5c3d58",
+          "md5": "f6e7ea8ecc3856be4c00f0638345864a"
         }
       ]
     },
@@ -111,7 +111,7 @@
           "group": "kotlin.graphics",
           "module": "uno-core",
           "version": {
-            "requires": "0.7.19"
+            "requires": "0.7.21"
           }
         },
         {
@@ -178,11 +178,11 @@
         {
           "name": "imgui-core-1.89.2.jar",
           "url": "imgui-core-1.89.2.jar",
-          "size": 18589199,
-          "sha512": "545e72875542ded42f86d3f42f9a59db17c20466d66b8a993eb865abf922d93cada880b71d96b64b6d565fbd7c1c6b48a55b4c50a7447aeb0c36807c2e800d0a",
-          "sha256": "8381e4556fd73e35897dca4dac22b9f6a83321d4117898a9c6dfd181a0664fdc",
-          "sha1": "0878313af91ed280073a9809ff462d8b91f9d0bb",
-          "md5": "7c9857becef1cd434f58520415d0c0c5"
+          "size": 18614734,
+          "sha512": "b911ad528f183cfa2d7eed4de646da1a8e0351d91f2deee9e5fdb738e1b89bb1ad4b69a3b91feb4074889d4b2ea8f5c0b188763f6bbbcc124dcb746f485aa98c",
+          "sha256": "9c5e334e8372858ab323ff4c7e5c9644017246619ce0fcf3fc2c659e1627a397",
+          "sha1": "2cfae0824603b00aea5a32fc7b2ee20b6e5c3d58",
+          "md5": "f6e7ea8ecc3856be4c00f0638345864a"
         }
       ]
     },
@@ -198,11 +198,11 @@
         {
           "name": "imgui-core-1.89.2-sources.jar",
           "url": "imgui-core-1.89.2-sources.jar",
-          "size": 16137993,
-          "sha512": "bfe33e6925612927e526d69355ce38aaf820d83b530902a64eb759fe013a6678f515c92b1065ab2a39c1bcc89faacea3b733f926d23c6770ae80134512b66d3b",
-          "sha256": "a64563603631ef1bc290262c679d534b5e270e4c1cf469d7f0e1fd572c508049",
-          "sha1": "a69d8a27cedf3e93ece68046707324781e3ebe4e",
-          "md5": "e152a7f7f798b34fd7fc77f5b809c8fb"
+          "size": 16141947,
+          "sha512": "479ea2d8d836b35875931a77de68f3c60537f46156efef00801cb2545aee23b980b8a56be9d30bf3878824ec36b699de9a97ddc9d299ca3980168a9f16c5c42f",
+          "sha256": "a223118ae89fa92c8b1d0a73c7160d6a0b1a38687f327974381caae9c94ce87a",
+          "sha1": "81ca64e2c5ddd8e8abf72edbb0084d062ead2a0b",
+          "md5": "df33bc524f804d18982b59ad1d99f33f"
         }
       ]
     }
