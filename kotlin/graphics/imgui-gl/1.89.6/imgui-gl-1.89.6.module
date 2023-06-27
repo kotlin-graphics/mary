@@ -1,0 +1,262 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "imgui-gl",
+    "version": "1.89.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "kotlin.graphics",
+          "module": "uno",
+          "version": {
+            "requires": "0.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "imgui-gl-1.89.6.jar",
+          "url": "imgui-gl-1.89.6.jar",
+          "size": 51132,
+          "sha512": "4364b9c8b55b69f5b6a9f201b45dd1eb2e805e3ccfb8223626a065540be81081c26aa2230d28628210c56c269fb6b372f718ff8a7a197d0ce1e307064c2d4f67",
+          "sha256": "12512238a81496ed1bf06a2081420942368be086054cdcabd810ffcb56e5d4e2",
+          "sha1": "dfac9ede8a6ae5a40c86cfbab62ad518bce3469f",
+          "md5": "adea4f5efad13f9b39475f6e67d2a531"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "imgui-core",
+          "version": {
+            "requires": "1.89.6"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "imgui-glfw",
+          "version": {
+            "requires": "1.89.6"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-remotery",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-stb",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "kotlin.graphics",
+          "module": "uno",
+          "version": {
+            "requires": "0.7.21"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-jemalloc",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-glfw",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-opengl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-remotery",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-remotery",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-stb",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-stb",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "imgui-gl-1.89.6.jar",
+          "url": "imgui-gl-1.89.6.jar",
+          "size": 51132,
+          "sha512": "4364b9c8b55b69f5b6a9f201b45dd1eb2e805e3ccfb8223626a065540be81081c26aa2230d28628210c56c269fb6b372f718ff8a7a197d0ce1e307064c2d4f67",
+          "sha256": "12512238a81496ed1bf06a2081420942368be086054cdcabd810ffcb56e5d4e2",
+          "sha1": "dfac9ede8a6ae5a40c86cfbab62ad518bce3469f",
+          "md5": "adea4f5efad13f9b39475f6e67d2a531"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "imgui-gl-1.89.6-sources.jar",
+          "url": "imgui-gl-1.89.6-sources.jar",
+          "size": 15670,
+          "sha512": "547107d1194c075a99f763dd4091b7b9fe32b9ab4238346e977edb789f57f8f64348d7f0c5542df39b3e5f6a59d2d04496c96d1f1bc4f2f0c06f681b99331702",
+          "sha256": "3b6f0b888593675f8912045e7730ff6ace20b1fd59277afeadacf5b436133ccd",
+          "sha1": "2cb5733a23e01e0e52a5d34c9f1847d10e4ca8ef",
+          "md5": "a3394883781ed2c3c403445b05f4ef66"
+        }
+      ]
+    }
+  ]
+}
