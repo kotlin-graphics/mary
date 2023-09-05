@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.kotlin-graphics</groupId>
+  <artifactId>kotlin-unsigned</artifactId>
+  <version>3.3.33</version>
+  <name>kotlin-unsigned</name>
+  <description>unsigned support for Kotlin via boxed types and unsigned operators</description>
+  <url>https://github.com/kotlin-graphics/kotlin-unsigned</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://choosealicense.com/licenses/mit/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>elect86</id>
+      <name>Giuseppe Barbieri</name>
+      <email>elect86@gmail.com</email>
+    </developer>
+    <developer>
+      <id>bixilon</id>
+      <name>Moritz Zwerger</name>
+      <email>bixilon@bixilon.de</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/kotlin-graphics/kotlin-unsigned.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:kotlin-graphics/kotlin-unsigned.git</developerConnection>
+    <url>https://github.com/kotlin-graphics/kotlin-unsigned</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
