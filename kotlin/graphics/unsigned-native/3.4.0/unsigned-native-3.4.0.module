@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../unsigned/3.4.0/unsigned-3.4.0.module",
+    "group": "kotlin.graphics",
+    "module": "unsigned",
+    "version": "3.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.ionspin.kotlin",
+          "module": "bignum",
+          "version": {
+            "requires": "0.3.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unsigned.klib",
+          "url": "unsigned-native-3.4.0.klib",
+          "size": 248229,
+          "sha512": "f1b9e1704affa35975348c1d8d937bad32bfb77d9a5fc1d3bed900c9f55cd9ade5e276ddd8afedc0530b4a1a4f3b0911ab2afbe0b9a7eee4537324a3beb1105d",
+          "sha256": "7e52e734591e5b5e88b14fc7e0ec315fe2c30c9af9076f87183f1c0e019fb78a",
+          "sha1": "a1f109da399ebb4e722968f3713dbf73cc0ac96c",
+          "md5": "160a37230ff42110d782aa4e4c9da3bf"
+        }
+      ]
+    },
+    {
+      "name": "nativeSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "unsigned-native-3.4.0-sources.jar",
+          "url": "unsigned-native-3.4.0-sources.jar",
+          "size": 33938,
+          "sha512": "64083d53fa58c0e3e7f48fa592513434aaf36b13127f4064dce0587da1e072229467e3524f7957518128d940999d09472aadde806f2ce31ef3cbb9121c9d689e",
+          "sha256": "8a1599d3305fea71dd67f5dc228d44e92a0eef177d882fefec5fd369b36bade9",
+          "sha1": "9117d92e7918a85e2b46f3ff629102d42acc5eca",
+          "md5": "893caa00af4f23fe3bc13b8ce64476f2"
+        }
+      ]
+    }
+  ]
+}
