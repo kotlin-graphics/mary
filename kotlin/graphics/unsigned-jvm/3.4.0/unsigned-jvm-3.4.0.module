@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../unsigned/3.4.0/unsigned-3.4.0.module",
+    "group": "kotlin.graphics",
+    "module": "unsigned",
+    "version": "3.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unsigned-jvm-3.4.0.jar",
+          "url": "unsigned-jvm-3.4.0.jar",
+          "size": 131608,
+          "sha512": "f304b165157eded51c39b7a69460bd53acf782af97d2ed13c5a5491f8eb8b437b4e7941ddd07b5cea5618ea7cf6fb8168510f3fc626b66e8bd3296f0744ad429",
+          "sha256": "703fa94b46fd8a861b64ab591b469e080654729e28d150ac37fa380cf5ab5fcd",
+          "sha1": "80b18b81736dd73a7bf342afe8fd4ad798a66fcc",
+          "md5": "244b4d8f5757fc858d411a98e1619105"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "com.ionspin.kotlin",
+          "module": "bignum",
+          "version": {
+            "requires": "0.3.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unsigned-jvm-3.4.0.jar",
+          "url": "unsigned-jvm-3.4.0.jar",
+          "size": 131608,
+          "sha512": "f304b165157eded51c39b7a69460bd53acf782af97d2ed13c5a5491f8eb8b437b4e7941ddd07b5cea5618ea7cf6fb8168510f3fc626b66e8bd3296f0744ad429",
+          "sha256": "703fa94b46fd8a861b64ab591b469e080654729e28d150ac37fa380cf5ab5fcd",
+          "sha1": "80b18b81736dd73a7bf342afe8fd4ad798a66fcc",
+          "md5": "244b4d8f5757fc858d411a98e1619105"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "unsigned-jvm-3.4.0-sources.jar",
+          "url": "unsigned-jvm-3.4.0-sources.jar",
+          "size": 33938,
+          "sha512": "64083d53fa58c0e3e7f48fa592513434aaf36b13127f4064dce0587da1e072229467e3524f7957518128d940999d09472aadde806f2ce31ef3cbb9121c9d689e",
+          "sha256": "8a1599d3305fea71dd67f5dc228d44e92a0eef177d882fefec5fd369b36bade9",
+          "sha1": "9117d92e7918a85e2b46f3ff629102d42acc5eca",
+          "md5": "893caa00af4f23fe3bc13b8ce64476f2"
+        }
+      ]
+    }
+  ]
+}
