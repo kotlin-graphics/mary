@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kotlin.graphics",
+    "module": "unsigned",
+    "version": "3.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "unsigned-metadata-3.4.0.jar",
+          "url": "unsigned-3.4.0.jar",
+          "size": 15705,
+          "sha512": "c5d86901125b12d2032f93bb1a0dedda4dbbe2f23b462c9a8a07a5a837e122eb00559a2cde106648e69b42337d4627a7e1871f8c73b532a5c92a50e6e4ffeba8",
+          "sha256": "972152044d3f009577d61d8414a7d1c59e8248cfac21bdb3aa4ad47a9c626d2e",
+          "sha1": "51e0b51c9a5ea67d045dc551a38277e4ea85a64b",
+          "md5": "3348acee06b7b3199c526287b657f77c"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "unsigned-kotlin-3.4.0-sources.jar",
+          "url": "unsigned-3.4.0-sources.jar",
+          "size": 33938,
+          "sha512": "64083d53fa58c0e3e7f48fa592513434aaf36b13127f4064dce0587da1e072229467e3524f7957518128d940999d09472aadde806f2ce31ef3cbb9121c9d689e",
+          "sha256": "8a1599d3305fea71dd67f5dc228d44e92a0eef177d882fefec5fd369b36bade9",
+          "sha1": "9117d92e7918a85e2b46f3ff629102d42acc5eca",
+          "md5": "893caa00af4f23fe3bc13b8ce64476f2"
+        }
+      ]
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../unsigned-jvm/3.4.0/unsigned-jvm-3.4.0.module",
+        "group": "kotlin.graphics",
+        "module": "unsigned-jvm",
+        "version": "3.4.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../unsigned-jvm/3.4.0/unsigned-jvm-3.4.0.module",
+        "group": "kotlin.graphics",
+        "module": "unsigned-jvm",
+        "version": "3.4.0"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../unsigned-jvm/3.4.0/unsigned-jvm-3.4.0.module",
+        "group": "kotlin.graphics",
+        "module": "unsigned-jvm",
+        "version": "3.4.0"
+      }
+    },
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../unsigned-native/3.4.0/unsigned-native-3.4.0.module",
+        "group": "kotlin.graphics",
+        "module": "unsigned-native",
+        "version": "3.4.0"
+      }
+    },
+    {
+      "name": "nativeSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../unsigned-native/3.4.0/unsigned-native-3.4.0.module",
+        "group": "kotlin.graphics",
+        "module": "unsigned-native",
+        "version": "3.4.0"
+      }
+    }
+  ]
+}
